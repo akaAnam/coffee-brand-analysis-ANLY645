@@ -113,7 +113,8 @@
 
 \begin_layout Title
 \paragraph_spacing onehalf
-A Data Driven Network Analysis of Coffee Consumer Brand Identities & Sentiments
+A Data Driven Network Analysis of Coffee Consumer Brand Identities and Sentiment
+s
 \begin_inset Foot
 status open
 
@@ -127,12 +128,12 @@ We are grateful to Tilburg Science Hub for providing this template.
 \end_layout
 
 \begin_layout Author
-Anam Khan, Haley Roberts, Nuoya Wu
+Anam Khan, Haley Roberts, Nuoya Wu 
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
-Anam Khan: Georgetown University; ak1963@georgetown.edu: 
+Anam Khan: Georgetown University; 
 \begin_inset CommandInset href
 LatexCommand href
 name "ak1963@georgetown.edu"
@@ -143,7 +144,7 @@ literal "false"
 \end_inset
 
 .
- Haley Roberts: Georgetown University; hne7@georgetown.edu: 
+ Haley Roberts: Georgetown University;hne7@georgetown.edu: 
 \begin_inset CommandInset href
 LatexCommand href
 name "hne7@georgetown.edu"
@@ -154,7 +155,7 @@ literal "false"
 \end_inset
 
 .
- Nuoya Wu: Georgetown University; nw388@georgetown.edu: 
+ Nuoya Wu: Georgetown University; 
 \begin_inset CommandInset href
 LatexCommand href
 name "nw388@georgetown.edu"
@@ -231,11 +232,6 @@ Key words:
 \begin_layout Abstract
 \paragraph_spacing other 0.9
 \noindent
-
-\series bold
-Journal-classification:
-\series default
- Some classification codes.
 \begin_inset Note Note
 status open
 
@@ -270,7 +266,7 @@ Coffee is one of the most-consumed products worldwide and has developed
  coffee shops continue to boom in popularity and patron loyalty.
  World consumption of coffee is currently projected to increase from roughly
  9.9 billion kilograms in the 2020/21 coffee year to 10.2 billion kilograms
- in the 2021/22 coffee year 
+ in the 2021/22 coffee year (
 \begin_inset CommandInset citation
 LatexCommand citet
 key "ICO2022"
@@ -278,7 +274,7 @@ literal "true"
 
 \end_inset
 
-.
+).
  With this growing market and increase in popularity, consumers have begun
  to find identity in their chosen coffee brands.
  A sense of pride is established in a person’s claim to being a Starbucks
@@ -457,6 +453,215 @@ literal "true"
  groups should have, and when curating unique messages to advertise to these
  different groups of consumers.
  
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+While marketers may not be able to control the inter-communications of their
+ consumers regarding their product, it is clear that social media has revolution
+ized how information in a networked environment is received and disseminated.
+ In particular, Twitter has generated a great deal of attention for its
+ ability to broadly propagate information to a large audience.
+ Information diffusion, the process of how information is spread and interacted,
+ has been widely studied in the field of network science.
+ Information is often diffused in conjunction with a major event such as
+ an earthquake or a political demonstration (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "sakaki2010earthquake,beguerisse2014interest"
+literal "true"
+
+\end_inset
+
+).
+ Studies following the dissemination of information after a major event
+ map the network of tweets, mentions, and retweets to identify the popularity
+ and measure influence.
+ While this may seem straightforward, tweets are not always indicative of
+ a user’s connection with a topic or their community identity due to the
+ noise produced by many personal messages, jokes, and fanfares.
+ Therefore, there is a need to transform into a more structured network
+ in terms of “community” (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "myers2014information"
+literal "true"
+
+\end_inset
+
+).
+ This idea is important to keep in mind as a limiting reagent to the study
+ here, as analyzing Twitter networks must be done carefully and very analyticall
+y to filter through the noise and gain true insights.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Although the detection of communities may be challenging, understanding
+ the sentiments of consumers has the potential to provide valuable insights
+ about the consumer perspectives on products.
+ Sentiment analysis has long been used in the commercial space, especially
+ on product reviews and predicting future buying behaviors.
+ One study on this topic compared tweets containing two different hashtags
+ related to weight loss (#thinspiration and #fitspiration) in order to understan
+d how users’ views on health and fitness differed for each group (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "tiggemann2018strong,tiggemann2018tweeting"
+literal "true"
+
+\end_inset
+
+).
+ Analysis of the sentiments of each set of tweets showed that on average,
+ both #thinspiration and #fitspiration tweets were mildly positive in sentiment
+ but that #fitspiration tweets were significantly more positive than #thinspirat
+ion tweets (Tiggmann & Zac-cardo 2018).
+ This is consistent with the findings that much of the text on #fitspiration
+ Instagram imagery is positive, suggesting that the text may be the source
+ of inspiration that people feel (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "tiggemann2018strong,tiggemann2018tweeting"
+literal "true"
+
+\end_inset
+
+).
+ Considering this study, it is established that sentiments can be evaluated
+ and useful in comparing tweets on two different yet similar topics.
+ This validates the basis of this research topic.
+ 
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sentiment analysis also plays a role in building quantitative measures of
+ users’ attitudes towards brands as well as underlying business components
+ such as product, website, support and customer service.
+ Another study analyzed the opinion of 19 million Twitter users towards
+ 62 popular industries, encompassing 12,898 enterprise and consumer brands
+ via sentiment analysis of 330 million tweets over a period of one month
+ (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "hu2017analyzing"
+literal "true"
+
+\end_inset
+
+).
+ The study found that users tended to be more positive or negative when
+ interacting with brands than in general on Twitter but that the sentiment
+ towards brands between and within industries varied greatly (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "hu2017analyzing"
+literal "true"
+
+\end_inset
+
+).
+ For example, airline industries produce very high negative sentiments and
+ Automotive industries provide high positive sentiment (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "hu2017analyzing"
+literal "true"
+
+\end_inset
+
+).
+ By analyzing sentiment towards topics associated with users’ brand interaction
+ tweets, the authors found that highly negative topics included “Fox News”
+ while highly positive topics include “Video Games” and “Music” (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "hu2017analyzing"
+literal "true"
+
+\end_inset
+
+).
+ The results of this study suggest that evaluating sentiments about products
+ on Twitter produce valuable insights and it is important to compare brands
+ within the same industry.
+ Again, this solidifies the direction of this research project’s ideation.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Before diving more into the basis of this project, the world-wide nature
+ of coffee as an industry was investigated to confirm the international
+ nature of this consumer product.
+ One study looked at the dynamics of the international coffee trade network
+ using data from the World Trade Organization from 1996 to 2017 (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "sujaritpong2021analysis"
+literal "true"
+
+\end_inset
+
+) .
+ They found that more than 82% of countries participated in the coffee trade
+ network but only 3% of countries controlled more than 90% of international
+ trade (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "sujaritpong2021analysis"
+literal "true"
+
+\end_inset
+
+).
+ Understanding the vast nature of the coffee industry is important to validate
+ that this topic is a good representation of how tweets can be used to understan
+d consumer sentiments toward products.
+ Thus, the methodology of this study could be replicated with other major
+ consumer products to gain insights about them.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+With a review of literature validating the ideation of this project, a firm
+ objective can be stated.
+ This research study aims to understand and compare consumer sentiments
+ and identities surrounding two popular coffee brands: Starucks and Dunkin’
+ Donuts.
+ Several questions are sought to be answered.
+ Are there distinguishable communities in a coffee-based social network?
+ If so, what characteristics do they share? Are Starbucks/Dunkin’ drinkers
+ more/less positive/negative? Do people prefer Starbucks or Dunkin’ Donuts?
+ Is there an “influencer” effect on coffee brand preference? These questions
+ will be answered through a network analysis of ten thousand tweets about
+ each of the two brands.
+ For each tweet, metadata is collected regarding the tweet user’s follower
+ counts, the tweet’s retweet counts, and more.
+ Then, text analysis is used to score each tweet’s sentiment (negative,
+ neutral, positive).
+ Finally, a network is created connecting tweets by their commonalities.
+ Network analysis is performed to understand each brand’s clientele and
+ investigate commonalities and differences between the brands and their
+ consumers’ sentiments and attributes.
+ The results provide insights into these brands and a template for similar
+ analysis of other brands.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -468,149 +673,6 @@ literal "true"
 
 \begin_layout Subsection*
 \begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection*
-Citations Reference
-\end_layout
-
-\begin_layout Enumerate
-
-\color red
-[fill in summary]
-\color inherit
- 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "watanabe2021social"
-literal "true"
-
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Enumerate
-
-\color red
-[fill in summary]
-\color inherit
- 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "hu2017analyzing"
-literal "true"
-
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Enumerate
-
-\color red
-[fill in summary]
-\color inherit
- 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "kim2014brand"
-literal "true"
-
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Enumerate
-
-\color red
-[fill in summary]
-\color inherit
- 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "sujaritpong2021analysis"
-literal "true"
-
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Enumerate
-
-\color red
-[fill in summary]
-\color inherit
- 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "mostafa2013more"
-literal "true"
-
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Enumerate
-
-\color red
-[fill in summary]
-\color inherit
- 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "culotta2016mining"
-literal "true"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset CommandInset citation
-LatexCommand citet
-key "grandjean2016social"
-literal "true"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Enumerate
-
-\color red
-[fill in summary]
-\color inherit
- 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "tiggemann2018tweeting"
-literal "true"
-
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Enumerate
-
-\color red
-[fill in summary]
-\color inherit
- 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "bello2017detecting"
-literal "true"
-
 \end_inset
 
 
@@ -666,7 +728,7 @@ null
 \begin_inset VSpace 5cm
 \end_inset
 
-Online Appendix
+
 \end_layout
 
 \begin_layout Standard
