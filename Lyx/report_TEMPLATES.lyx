@@ -113,27 +113,12 @@
 
 \begin_layout Title
 \paragraph_spacing onehalf
-Network Analysis On Twitter Coffee Culture
+A Data Driven Network Analysis of Coffee Consumer Brand Identities & Sentiments
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
 We are grateful to Tilburg Science Hub for providing this template.
- This is a footnote by the way.
- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
- Aliquam sollicitudin ullamcorper tellus, non tristique elit posuere vitae.
- In iaculis ultrices justo sit amet condimentum.
- Sed ultricies non leo quis varius.
- Aliquam sit amet ante odio.
- Sed nibh libero, posuere fermentum ligula non, feugiat interdum risus.
- Ut vitae bibendum urna.
- Sed justo justo, posuere non lacus nec, condimentum sollicitudin urna.
- Morbi elementum consectetur purus in auctor.
- Vestibulum ut placerat erat, a consectetur nulla.
- Morbi pellentesque pellentesque mauris quis vestibulum.
- Proin nec turpis justo.
- Phasellus vitae mauris ultrices ligula aliquam viverra.
- Aenean sed quam a orci fringilla malesuada.
 \end_layout
 
 \end_inset
@@ -142,27 +127,38 @@ We are grateful to Tilburg Science Hub for providing this template.
 \end_layout
 
 \begin_layout Author
-Anam Khan Haley Roberts Nuoya Wu
+Anam Khan, Haley Roberts, Nuoya Wu
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
-First Author: First University; e-mail: 
+Anam Khan: Georgetown University; ak1963@georgetown.edu: 
 \begin_inset CommandInset href
 LatexCommand href
-name "author@placeholderuniversity.edu"
-target "author@placeholderuniversity.edu"
+name "ak1963@georgetown.edu"
+target "ak1963@georgetown.edu"
 type "mailto:"
 literal "false"
 
 \end_inset
 
 .
- Second Author: Another University; e-mail: 
+ Haley Roberts: Georgetown University; hne7@georgetown.edu: 
 \begin_inset CommandInset href
 LatexCommand href
-name "author@placeholderuniversity.edu"
-target "author@placeholderuniversity.edu"
+name "hne7@georgetown.edu"
+target "hne7@georgetown.edu"
+type "mailto:"
+literal "false"
+
+\end_inset
+
+.
+ Nuoya Wu: Georgetown University; nw388@georgetown.edu: 
+\begin_inset CommandInset href
+LatexCommand href
+name "nw388@georgetown.edu"
+target "nw388@georgetown.edu"
 type "mailto:"
 literal "false"
 
@@ -190,39 +186,27 @@ June 2022
 \begin_layout Abstract
 \paragraph_spacing other 0.9
 \noindent
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
- Aliquam sollicitudin ullamcorper tellus, non tristique elit posuere vitae.
- In iaculis ultrices justo sit amet condimentum.
- Sed ultricies non leo quis varius.
- Aliquam sit amet ante odio.
- Sed nibh libero, posuere fermentum ligula non, feugiat interdum risus.
- Ut vitae bibendum urna.
- Sed justo justo, posuere non lacus nec, condimentum sollicitudin urna.
- Morbi elementum consectetur purus in auctor.
- Vestibulum ut placerat erat, a consectetur nulla.
- Morbi pellentesque pellentesque mauris quis vestibulum.
- Proin nec turpis justo.
- Phasellus vitae mauris ultrices ligula aliquam viverra.
- Aenean sed quam a orci fringilla malesuada.
- Proin lacus orci, tempor ut elementum in, convallis id ex.
- Duis commodo nunc et massa tincidunt, vel sagittis risus cursus.
- Nulla vestibulum mi sem, vel rhoncus lectus tincidunt sit amet.
- Vestibulum scelerisque aliquam mauris, vel porttitor mauris.
- Cras laoreet tortor eget gravida eleifend.
- Proin sit amet dui et leo feugiat accumsan vitae et tellus.
- Praesent vulputate tortor nec metus luctus efficitur.
- Aliquam at consequat diam.
- Nunc scelerisque felis et facilisis blandit.
- Curabitur ac ex tortor.
- Ut aliquet elementum dolor, et faucibus ante ornare non.
- Pellentesque finibus mollis enim, at rhoncus elit.
- Vivamus vulputate convallis justo et efficitur.
- Suspendisse magna augue, pulvinar ornare ullamcorper nec, ornare et odio.
- Ut lorem mi, tempor eu lacus id, commodo posuere odio.
- Maecenas consequat leo tellus.
- Sed consequat lacinia mollis.
- In purus quam, hendrerit ac lorem sit amet, molestie pellentesque metus.
- Morbi id rutrum massa.
+Coffee is one of the most-consumed products worldwide and is provided by
+ both well-known large companies and small boutique stores.
+ Of the many popular beverages on the market, coffee appears unique in the
+ sense that people often find identity and feel strong loyalty toward their
+ coffee brand of choice, claiming to be a “small coffee shop person”, a
+ “Starbucks person”, an “artisanal coffee person”, etc.
+ To understand the sentiments and overlap of coffee identities and identify
+ other key characteristics of brand loyalties, this study utilizes tweets
+ about two major coffee brands: “Starbucks” and “Dunkin Donuts”.
+ Ten thousand tweets are collected regarding each coffee brand and textually
+ broken down into significant words.
+ For each tweet, metadata is collected regarding the tweet user’s follower
+ counts, the tweet’s retweet counts, and more.
+ Then, text analysis is used to score each tweet’s sentiment (negative,
+ neutral, positive).
+ Finally, a network is created connecting tweets by their textual commonalities.
+ Network analysis is performed to understand each brand’s clientele and
+ investigate similarities and differences between the brands and their consumers
+’ sentiments and attributes.
+ The results provide insights into these brands’ consumers and a template
+ for similar analyses of other brands.
 \begin_inset VSpace 1cm
 \end_inset
 
@@ -236,7 +220,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 \series bold
 Key words:
 \series default
- First keyword, second keyword, third keyword.
+ Coffee, Consumer, Brand Identity, Brand Loyalty, Network, Twitter, Culture,
+ Sentiment, Text Analysis, Community Detection, Social Network.
 \begin_inset VSpace defskip
 \end_inset
 
@@ -274,14 +259,6 @@ Some notes.
 
 \begin_layout Section
 Introduction
-\begin_inset CommandInset citation
-LatexCommand citeyear
-key "bello2017detecting"
-literal "false"
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -300,8 +277,15 @@ This is a footnote.
 \end_layout
 
 \begin_layout Standard
-And these are our citations
-\begin_inset VSpace defskip
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Literature Review
+\begin_inset VSpace medskip
 \end_inset
 
 
@@ -312,7 +296,11 @@ Haley's Citations:
 \end_layout
 
 \begin_layout Enumerate
-[fill in summary] 
+
+\color red
+[fill in summary]
+\color inherit
+ 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "watanabe2021social"
@@ -324,7 +312,11 @@ literal "true"
 \end_layout
 
 \begin_layout Enumerate
-This article [fill in summary] 
+
+\color red
+[fill in summary]
+\color inherit
+ 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "hu2017analyzing"
@@ -336,7 +328,11 @@ literal "true"
 \end_layout
 
 \begin_layout Enumerate
-This article [fill in summary] 
+
+\color red
+[fill in summary]
+\color inherit
+ 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "kim2014brand"
@@ -348,14 +344,18 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace defskip
+\begin_inset VSpace medskip
 \end_inset
 
 Nora's Citations:
 \end_layout
 
 \begin_layout Enumerate
-This article [fill in summary] 
+
+\color red
+[fill in summary]
+\color inherit
+ 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "sujaritpong2021analysis"
@@ -367,7 +367,11 @@ literal "true"
 \end_layout
 
 \begin_layout Enumerate
-This article [fill in summary] 
+
+\color red
+[fill in summary]
+\color inherit
+ 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "mostafa2013more"
@@ -379,7 +383,11 @@ literal "true"
 \end_layout
 
 \begin_layout Enumerate
-This article [fill in summary] 
+
+\color red
+[fill in summary]
+\color inherit
+ 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "culotta2016mining"
@@ -391,7 +399,7 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace defskip
+\begin_inset VSpace medskip
 \end_inset
 
 Anam's Citations:
@@ -417,7 +425,11 @@ literal "true"
 \end_layout
 
 \begin_layout Enumerate
-This article [fill in summary] 
+
+\color red
+[fill in summary]
+\color inherit
+ 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "tiggemann2018tweeting"
@@ -429,7 +441,11 @@ literal "true"
 \end_layout
 
 \begin_layout Enumerate
-This article [fill in summary] 
+
+\color red
+[fill in summary]
+\color inherit
+ 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "bello2017detecting"
@@ -490,48 +506,7 @@ Another footnote.
 \end_layout
 
 \begin_layout Standard
-Nulla facilisi.
- Suspendisse blandit massa fermentum, ultrices ipsum eu, molestie tellus.
- Fusce ornare in sapien a lobortis.
- Duis gravida nibh nec porta volutpat.
- Vivamus pharetra pulvinar orci, in finibus quam placerat rutrum.
- Morbi ante nisi, vulputate et vehicula nec, pulvinar eget eros.
- Quisque eget iaculis est, non porttitor tortor.
- Pellentesque nunc dolor, pellentesque a vulputate at, cursus nec orci.
- Aliquam condimentum rhoncus luctus.
- Aliquam consequat nunc ut tortor efficitur rutrum.
- Quisque pulvinar mattis suscipit.
- Nunc sed maximus ex, in aliquet ex.
-\end_layout
 
-\begin_layout Standard
-Vestibulum condimentum semper nisl, sit amet congue ex lobortis bibendum.
- Donec ultrices, metus id porta fermentum, arcu orci vehicula erat, fringilla
- feugiat tortor eros nec tortor.
- Cras tincidunt ultrices placerat.
- Pellentesque habitant morbi tristique senectus et netus et malesuada fames
- ac turpis egestas.
- Pellentesque auctor pretium dui non suscipit.
- Suspendisse eu bibendum purus, at euismod felis.
- Ut lobortis feugiat neque, at mollis nisl cursus quis.
- Vivamus eu nunc augue.
- Proin malesuada auctor eros, quis aliquet magna interdum sed.
- Sed sed viverra nisl.
- Maecenas venenatis nulla ac aliquam fermentum.
- In ultrices risus eget mattis luctus.
- Morbi fringilla leo eget ipsum interdum consectetur.
-\end_layout
-
-\begin_layout Standard
-Quisque a enim blandit, tristique libero ac, dignissim nibh.
- In pellentesque leo eget placerat dapibus.
- Vestibulum iaculis, enim sodales aliquet pretium, mi mi feugiat diam, eu
- dignissim ante ipsum dignissim eros.
- Nullam et mollis lacus, sed fermentum enim.
- Duis tempus condimentum faucibus.
- Sed sodales placerat orci, vel fringilla nunc porta id.
- Ut vitae fermentum enim.
- Nam ultricies tempor velit, in convallis dolor dictum ac.
 \end_layout
 
 \begin_layout Section
@@ -557,16 +532,6 @@ Nulla lobortis fringilla mauris, sit amet efficitur tortor rhoncus ac.
  Praesent tellus magna, commodo eget gravida sed, vehicula venenatis nibh.
  Proin id diam a tortor porttitor scelerisque vel at elit.
  Phasellus id cursus magna.
-\end_layout
-
-\begin_layout Standard
-Donec dictum risus at ipsum egestas dictum.
- Sed at urna finibus, faucibus tortor accumsan, volutpat nulla.
- Etiam egestas nisl auctor, porta neque eu, varius dui.
- Vestibulum pharetra aliquam nisi non efficitur.
- Vestibulum feugiat sodales enim, sed varius mi.
- Cras imperdiet erat eu massa suscipit, sed dictum orci tincidunt.
- Etiam non justo nec quam auctor tempor eget eget odio.
 \end_layout
 
 \begin_layout Section
@@ -600,29 +565,6 @@ Proin venenatis eleifend leo, eget gravida mi vulputate eget.
  Sed eu lacus at nulla venenatis blandit.
  Nam consectetur lorem nec eros pretium vulputate.
  Fusce a urna ac tortor maximus rutrum.
-\end_layout
-
-\begin_layout Standard
-Interdum et malesuada fames ac ante ipsum primis in faucibus.
- Phasellus ac felis laoreet, pharetra quam dignissim, venenatis ipsum.
- Aliquam neque erat, eleifend vitae condimentum ac, fermentum a elit.
- Mauris aliquet aliquam dolor, vitae venenatis est lobortis in.
- Nullam tincidunt quis erat id lacinia.
- Vivamus posuere urna ut urna imperdiet lobortis.
- Maecenas eu tincidunt velit.
- Vestibulum condimentum sollicitudin massa id venenatis.
- Nullam vel metus sed nisi ultrices molestie.
-\end_layout
-
-\begin_layout Standard
-Quisque in gravida magna.
- Integer vulputate dui eros, nec sodales tortor porta sit amet.
- Ut pretium vitae velit ullamcorper vehicula.
- Ut molestie magna vitae neque pretium venenatis.
- Orci varius natoque penatibus et magnis dis parturient montes, nascetur
- ridiculus mus.
- Aenean ultricies enim quis lectus pharetra, ut dapibus ipsum interdum.
- Sed sit amet dui volutpat, iaculis felis tincidunt, lacinia tortor.
 \end_layout
 
 \begin_layout Subsection
@@ -758,31 +700,6 @@ Interdum et malesuada fames ac ante ipsum primis in faucibus.
  Nam a rutrum risus.
 \end_layout
 
-\begin_layout Standard
-Nunc sed lectus consequat, commodo sapien a, tincidunt lacus.
- Fusce venenatis lacus sit amet mauris accumsan, at sodales nisl placerat.
- Nunc ultricies ornare nisl.
- Vivamus euismod nulla eu magna imperdiet, at maximus nunc pulvinar.
- Duis commodo metus sit amet diam lacinia consequat.
- Suspendisse erat lacus, tempor vitae hendrerit sit amet, dapibus auctor
- libero.
- Donec congue aliquam libero et ultrices.
- Donec sapien orci, bibendum ac malesuada eget, vestibulum vel justo.
-\end_layout
-
-\begin_layout Standard
-Quisque non dui hendrerit, dapibus justo sed, accumsan ex.
- Aliquam vel molestie neque.
- Maecenas egestas tempus vehicula.
- Mauris iaculis, tellus non lacinia faucibus, nisi erat dapibus enim, id
- mattis lectus est bibendum nisi.
- Pellentesque vitae lorem id lectus hendrerit aliquet faucibus quis ipsum.
- Aliquam tempus mattis sem, eu facilisis velit accumsan eget.
- Aliquam elementum vitae turpis eu luctus.
- Donec pharetra sapien vel eros congue, a condimentum arcu imperdiet.
- Pellentesque quis urna ut metus tincidunt fermentum.
-\end_layout
-
 \begin_layout Section
 Sixth section
 \begin_inset CommandInset label
@@ -804,22 +721,6 @@ In commodo arcu id lectus fringilla semper.
  Nam odio erat, posuere sed pulvinar sit amet, luctus vitae ante.
  Aenean nisl ipsum, malesuada eget nulla sit amet, dignissim congue risus.
  Nam sed ex et magna varius commodo vel a ipsum.
-\end_layout
-
-\begin_layout Standard
-Etiam leo lacus, placerat et congue a, iaculis nec urna.
- Nam tempor, leo in tempor laoreet, dui nunc bibendum tellus, a bibendum
- dolor velit a nunc.
- Praesent dignissim dignissim eros quis consectetur.
- Maecenas lobortis bibendum orci, in ullamcorper ante sodales at.
- Vestibulum ultrices auctor cursus.
- Quisque nec placerat libero.
- Vivamus in facilisis lacus, nec consectetur lacus.
- Interdum et malesuada fames ac ante ipsum primis in faucibus.
- Integer pharetra cursus est eu facilisis.
- Integer nec odio elementum, dignissim nibh eget, condimentum elit.
- Quisque non nisi venenatis, posuere mauris et, sodales erat.
- Interdum et malesuada fames ac ante ipsum primis in faucibus.
 \end_layout
 
 \begin_layout Subsection
@@ -1667,48 +1568,7 @@ Vestibulum commodo libero a pellentesque pellentesque.
  Ut vitae quam non eros mattis egestas sed ut metus.
  Praesent pulvinar felis est, nec imperdiet tortor placerat a.
  Maecenas faucibus nisi eu purus vehicula, in rutrum magna porta.
- Ut elit sapien, hendrerit ac enim quis, dignissim pretium sapien.
- Morbi at convallis nibh.
- Cras ullamcorper nunc a porta aliquam.
- Curabitur tincidunt, lacus venenatis facilisis vulputate, magna risus euismod
- est, at vehicula ligula arcu aliquet risus.
- Nullam maximus, lectus sed ultricies facilisis, justo libero sodales quam,
- at venenatis nisi eros sit amet lacus.
-\end_layout
-
-\begin_layout Standard
-Morbi fermentum diam ut tellus mattis, vel scelerisque lorem tincidunt.
- Curabitur molestie viverra scelerisque.
- Fusce vel faucibus odio.
- Donec bibendum sem in tempus cursus.
- Nunc eget sapien quam.
- Fusce in lectus sem.
- Fusce vitae rutrum nunc.
- Proin posuere odio felis, a consequat nibh fermentum ac.
- Vestibulum non odio nec orci maximus viverra.
- Aliquam convallis augue nec justo sollicitudin, at ullamcorper justo vulputate.
-\end_layout
-
-\begin_layout Standard
-Quisque ullamcorper tellus in ultrices placerat.
- Sed maximus placerat euismod.
- Vestibulum faucibus, dui sed facilisis scelerisque, leo justo tempor nunc,
- sed varius nisi ipsum sed massa.
- Vivamus felis leo, facilisis at maximus et, aliquam vel ante.
- Praesent ac tincidunt enim.
- Sed ornare odio nec ultrices posuere.
- Nulla commodo nisi ornare, tincidunt orci a, cursus ligula.
-\end_layout
-
-\begin_layout Standard
-Nulla quis mauris ante.
- Donec blandit laoreet nisl ut aliquam.
- Nulla feugiat augue arcu, ac condimentum elit dapibus a.
- Fusce sed congue magna.
- Pellentesque molestie lacinia semper.
- Fusce consectetur maximus ante.
- Aenean vitae magna nibh.
- Ut laoreet leo ac quam viverra, id faucibus arcu pellentesque.
+ 
 \end_layout
 
 \begin_layout Standard
