@@ -12,16 +12,17 @@ from tweepy import OAuthHandler
 import pandas as pd
 import re
 import string
+import time
 
 
 ###########################################################################
 ### Set up Twitter API info & Tweepy
 ###########################################################################
 
-consumer_key = 'xxx'
-consumer_secret = 'xxx'
-access_token = 'xxx'
-access_secret = 'xxx'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_secret = ''
 
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
@@ -147,6 +148,9 @@ def get_tweet_data(tweet, column_names):
 
 def get_tweets(search_words, date_start, num_tweets, column_names, filename):
     
+    # Get start time of tweet collection
+    start_time = time.time()
+
     # Create dataframe to hold the twitter data, with specified headers
     tweet_data = pd.DataFrame(columns=column_names)
     
@@ -169,8 +173,14 @@ def get_tweets(search_words, date_start, num_tweets, column_names, filename):
         # Add new tweet data to csv file
         tweet_data.to_csv(filename, index=False)
     
+    # Get end time of tweet collection
+    end_time = time.time()
+
+    # Get time taken to collect tweets
+    duration = round((end_time-start_time)/60,2)
+
     # Return the tweet data
-    return tweet_data
+    return tweet_data, duration
 
 
 
@@ -203,10 +213,10 @@ column_names = [
                 ]
 
 # Specify start date of gathering tweets
-start_date = "2022-06-14"
+start_date = "2022-06-01"
 
 # Specify number of tweets to collect
-num_tweets = 10
+num_tweets = 10000
 
 ##############################
 ### Keyword: "starbucks"
@@ -219,25 +229,31 @@ words_starbucks = "starbucks"
 filename_starbucks = 'tweets_starbucks.csv'
 
 # Call method to get tweets about keyword of interest
-tweet_data_starbucks = get_tweets(search_words = words_starbucks, 
-                                  date_start = start_date,
-                                  num_tweets = num_tweets,
-                                  column_names = column_names,
-                                  filename = filename_starbucks)
+tweet_data_starbucks, duration = get_tweets(search_words = words_starbucks, 
+                                            date_start = start_date,
+                                            num_tweets = num_tweets,
+                                            column_names = column_names,
+                                            filename = filename_starbucks)
+
+# Print total time for Starbucks tweet collections
+print("Starbucks Collection Time: "+str(duration)+" mins")
 
 ##############################
-### Keyword: "folgers"
+### Keyword: "dunkin"
 ##############################
 
 # Indicate keyword to search
-words_folgers = "folgers"
+words_dunkin = "dunkin"
 
 # Indicate filename to save data to
-filename_folgers = 'tweets_folgers.csv'
+filename_dunkin = 'tweets_dunkin.csv'
 
 # Call method to get tweets about keyword of interest
-tweet_data_folgers = get_tweets(search_words = words_folgers, 
-                                  date_start = start_date,
-                                  num_tweets = num_tweets,
-                                  column_names = column_names,
-                                  filename = filename_folgers)
+tweet_data_dunkin, duration = get_tweets(search_words = words_dunkin, 
+                                         date_start = start_date,
+                                         num_tweets = num_tweets,
+                                         column_names = column_names,
+                                         filename = filename_dunkin)
+
+# Get total time for Starbucks tweet collections
+print("Dunkin' Collection Time: "+str(duration)+" mins")
