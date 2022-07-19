@@ -32,6 +32,8 @@ def clean_tweets(tweet):
     tweet = re.sub('[()!?]', ' ', tweet) # remove punctuation
     tweet = re.sub('\[.*?\]',' ', tweet) # remove punctuation
     tweet = re.sub("[^a-z0-9]"," ", tweet) #remove non alpha-numeric
+    tweet = re.sub("\S*\d\S*", "", tweet).strip() # remove numbers + words with numbers 
+
 
     # tokenize words in tweet
     tweet_tokens = word_tokenize(tweet)
@@ -50,3 +52,18 @@ def clean_tweets(tweet):
 
     # return cleaned tweets
     return tweet
+
+
+
+def countWords(s):
+  
+    # Check if the string is null
+    # or empty then return zero
+    if s.strip() == "":
+        return 0
+  
+    # Splitting the string
+  
+    words = s.split()
+  
+    return len(words)
