@@ -1,557 +1,47 @@
 graph [
   node [
     id 0
-    label "S866"
+    label "S5666"
     brand "starbucks"
     influencer_status "No"
-    sentiment "negative"
-    user_followers_count 336
+    sentiment "neutral"
+    user_followers_count 15
     retweet_count 0
-    favorite_count 7
+    favorite_count 0
   ]
   node [
     id 1
-    label "S1567"
+    label "S4466"
     brand "starbucks"
     influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 34
+    sentiment "negative"
+    user_followers_count 250
     retweet_count 0
-    favorite_count 0
+    favorite_count 6
   ]
   node [
     id 2
-    label "D1074"
-    brand "dunkin"
+    label "S4542"
+    brand "starbucks"
     influencer_status "No"
     sentiment "positive"
-    user_followers_count 432
+    user_followers_count 59
     retweet_count 0
-    favorite_count 46
+    favorite_count 2
   ]
   node [
     id 3
-    label "S2442"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 894
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 4
-    label "S4669"
+    label "S7050"
     brand "starbucks"
     influencer_status "No"
     sentiment "positive"
-    user_followers_count 154
-    retweet_count 0
-    favorite_count 1
-  ]
-  node [
-    id 5
-    label "S2125"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "negative"
-    user_followers_count 436
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 6
-    label "S3907"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 1745
-    retweet_count 0
-    favorite_count 5
-  ]
-  node [
-    id 7
-    label "S6666"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 1327
-    retweet_count 0
-    favorite_count 1
-  ]
-  node [
-    id 8
-    label "S2927"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 496
-    retweet_count 1
-    favorite_count 1
-  ]
-  node [
-    id 9
-    label "S7443"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 1931
-    retweet_count 0
-    favorite_count 1
-  ]
-  node [
-    id 10
-    label "S810"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 390
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 11
-    label "S913"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "negative"
-    user_followers_count 401
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 12
-    label "S3653"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 2257
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 13
-    label "S1573"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 174
-    retweet_count 1
-    favorite_count 0
-  ]
-  node [
-    id 14
-    label "S2767"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 748
+    user_followers_count 44
     retweet_count 0
     favorite_count 3
   ]
   node [
-    id 15
-    label "S1787"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 2199
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 16
-    label "S6597"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 2028
-    retweet_count 5
-    favorite_count 47
-  ]
-  node [
-    id 17
-    label "S5684"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 235
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 18
-    label "S4695"
-    brand "starbucks"
-    influencer_status "Yes"
-    sentiment "neutral"
-    user_followers_count 14000
-    retweet_count 13
-    favorite_count 35
-  ]
-  node [
-    id 19
-    label "S2258"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "negative"
-    user_followers_count 227
-    retweet_count 0
-    favorite_count 8
-  ]
-  node [
-    id 20
-    label "S9"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 771
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 21
-    label "S3510"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "negative"
-    user_followers_count 1874
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 22
-    label "S1371"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "negative"
-    user_followers_count 2365
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 23
-    label "S149"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "negative"
-    user_followers_count 38
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 24
-    label "S2597"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "negative"
-    user_followers_count 333
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 25
-    label "S2234"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 57
-    retweet_count 1
-    favorite_count 12
-  ]
-  node [
-    id 26
-    label "S21"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 1053
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 27
-    label "S2745"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 908
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 28
-    label "S4449"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 1186
-    retweet_count 1
-    favorite_count 10
-  ]
-  node [
-    id 29
-    label "S1623"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 27
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 30
-    label "S7933"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 52
-    retweet_count 0
-    favorite_count 11
-  ]
-  node [
-    id 31
-    label "S2946"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 168
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 32
-    label "D1139"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 218
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 33
-    label "D383"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "negative"
-    user_followers_count 225
-    retweet_count 1
-    favorite_count 0
-  ]
-  node [
-    id 34
-    label "S6832"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "negative"
-    user_followers_count 694
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 35
-    label "S6693"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 476
-    retweet_count 0
-    favorite_count 1
-  ]
-  node [
-    id 36
-    label "S5931"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 547
-    retweet_count 12
-    favorite_count 52
-  ]
-  node [
-    id 37
-    label "S7308"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "negative"
-    user_followers_count 426
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 38
-    label "S7834"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 308
-    retweet_count 0
-    favorite_count 23
-  ]
-  node [
-    id 39
-    label "S6554"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "negative"
-    user_followers_count 613
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 40
-    label "D6104"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 25
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 41
-    label "S4337"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 1630
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 42
-    label "S4886"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 360
-    retweet_count 0
-    favorite_count 2
-  ]
-  node [
-    id 43
-    label "D833"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 24
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 44
-    label "S1578"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "negative"
-    user_followers_count 103
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 45
-    label "D6985"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 543
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 46
-    label "D208"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "negative"
-    user_followers_count 103
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 47
-    label "S3811"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 533
-    retweet_count 0
-    favorite_count 4
-  ]
-  node [
-    id 48
-    label "S3173"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "negative"
-    user_followers_count 659
-    retweet_count 0
-    favorite_count 2
-  ]
-  node [
-    id 49
-    label "S4164"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 126
-    retweet_count 0
-    favorite_count 1
-  ]
-  node [
-    id 50
-    label "S6951"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "negative"
-    user_followers_count 3637
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 51
-    label "S7695"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 3637
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 52
-    label "D7048"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 43
-    retweet_count 0
-    favorite_count 1
-  ]
-  node [
-    id 53
-    label "S18"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 142
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 54
-    label "S2218"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 177
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 55
-    label "S7042"
+    id 4
+    label "S2909"
     brand "starbucks"
     influencer_status "No"
     sentiment "positive"
@@ -560,478 +50,178 @@ graph [
     favorite_count 1
   ]
   node [
-    id 56
-    label "D968"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 253
-    retweet_count 0
-    favorite_count 1
-  ]
-  node [
-    id 57
-    label "S1842"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 504
-    retweet_count 0
-    favorite_count 1
-  ]
-  node [
-    id 58
-    label "S3201"
+    id 5
+    label "S2186"
     brand "starbucks"
     influencer_status "No"
     sentiment "positive"
-    user_followers_count 544
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 59
-    label "S6161"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 0
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 60
-    label "S1137"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "negative"
-    user_followers_count 61
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 61
-    label "D6000"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "negative"
-    user_followers_count 521
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 62
-    label "D7486"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 1694
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 63
-    label "S946"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 722
-    retweet_count 0
-    favorite_count 7
-  ]
-  node [
-    id 64
-    label "S4681"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 889
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 65
-    label "S1892"
-    brand "starbucks"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 45
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 66
-    label "D6868"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 506
-    retweet_count 1
-    favorite_count 5
-  ]
-  node [
-    id 67
-    label "D3992"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 276
-    retweet_count 0
-    favorite_count 10
-  ]
-  node [
-    id 68
-    label "D1789"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 720
-    retweet_count 0
-    favorite_count 4
-  ]
-  node [
-    id 69
-    label "D5651"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 24
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 70
-    label "D2360"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 14
-    retweet_count 0
-    favorite_count 1
-  ]
-  node [
-    id 71
-    label "D939"
-    brand "dunkin"
-    influencer_status "Yes"
-    sentiment "positive"
-    user_followers_count 4875
-    retweet_count 1
-    favorite_count 1
-  ]
-  node [
-    id 72
-    label "D5088"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 9
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 73
-    label "D120"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "negative"
-    user_followers_count 14
-    retweet_count 0
-    favorite_count 1
-  ]
-  node [
-    id 74
-    label "D5326"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "negative"
-    user_followers_count 98
-    retweet_count 0
-    favorite_count 1
-  ]
-  node [
-    id 75
-    label "D3268"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 2807
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 76
-    label "D2361"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 37
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 77
-    label "D7760"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 1193
-    retweet_count 0
-    favorite_count 3
-  ]
-  node [
-    id 78
-    label "D7152"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 389
-    retweet_count 0
-    favorite_count 1
-  ]
-  node [
-    id 79
-    label "D3737"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 382
-    retweet_count 0
-    favorite_count 1
-  ]
-  node [
-    id 80
-    label "D264"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "negative"
-    user_followers_count 1250
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 81
-    label "D7428"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 828
-    retweet_count 0
-    favorite_count 6
-  ]
-  node [
-    id 82
-    label "D7613"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 859
-    retweet_count 0
-    favorite_count 1
-  ]
-  node [
-    id 83
-    label "D3333"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 864
+    user_followers_count 479
     retweet_count 0
     favorite_count 2
   ]
   node [
-    id 84
-    label "D3441"
-    brand "dunkin"
+    id 6
+    label "S80"
+    brand "starbucks"
     influencer_status "No"
     sentiment "negative"
-    user_followers_count 335
+    user_followers_count 1271
     retweet_count 0
     favorite_count 0
   ]
   node [
-    id 85
-    label "D3823"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 719
-    retweet_count 1
-    favorite_count 3
-  ]
-  node [
-    id 86
-    label "D3551"
-    brand "dunkin"
+    id 7
+    label "S1789"
+    brand "starbucks"
     influencer_status "No"
     sentiment "positive"
-    user_followers_count 86
+    user_followers_count 1007
     retweet_count 0
-    favorite_count 0
+    favorite_count 10
   ]
   node [
-    id 87
-    label "D7602"
-    brand "dunkin"
+    id 8
+    label "S5231"
+    brand "starbucks"
     influencer_status "No"
     sentiment "negative"
-    user_followers_count 121
+    user_followers_count 934
     retweet_count 0
     favorite_count 1
   ]
   node [
-    id 88
-    label "D1339"
-    brand "dunkin"
-    influencer_status "Yes"
+    id 9
+    label "S4114"
+    brand "starbucks"
+    influencer_status "No"
     sentiment "neutral"
-    user_followers_count 4438
-    retweet_count 1
+    user_followers_count 479
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 10
+    label "S977"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 338
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 11
+    label "D4425"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "negative"
+    user_followers_count 191
+    retweet_count 0
     favorite_count 1
   ]
   node [
-    id 89
-    label "D6816"
+    id 12
+    label "S5868"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 170
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 13
+    label "D6156"
     brand "dunkin"
     influencer_status "No"
     sentiment "positive"
-    user_followers_count 1316
-    retweet_count 0
-    favorite_count 1
-  ]
-  node [
-    id 90
-    label "D716"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "negative"
-    user_followers_count 172
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 91
-    label "D6454"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "negative"
-    user_followers_count 652
-    retweet_count 0
-    favorite_count 4
-  ]
-  node [
-    id 92
-    label "D2916"
-    brand "dunkin"
-    influencer_status "Yes"
-    sentiment "neutral"
-    user_followers_count 4491
-    retweet_count 0
-    favorite_count 4
-  ]
-  node [
-    id 93
-    label "D6458"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 100
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 94
-    label "D6239"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "negative"
-    user_followers_count 220
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 95
-    label "D4654"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "negative"
-    user_followers_count 4
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 96
-    label "D6176"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 140
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 97
-    label "D625"
-    brand "dunkin"
-    influencer_status "Yes"
-    sentiment "negative"
-    user_followers_count 159878
-    retweet_count 37
-    favorite_count 151
-  ]
-  node [
-    id 98
-    label "D6483"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 206
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 99
-    label "D2262"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "positive"
-    user_followers_count 97
-    retweet_count 0
-    favorite_count 0
-  ]
-  node [
-    id 100
-    label "D5989"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 625
+    user_followers_count 213
     retweet_count 0
     favorite_count 3
   ]
   node [
-    id 101
-    label "D4699"
-    brand "dunkin"
+    id 14
+    label "S6875"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 1327
+    retweet_count 0
+    favorite_count 19
+  ]
+  node [
+    id 15
+    label "S1566"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 488
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 16
+    label "S2248"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 298
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 17
+    label "S4077"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 424
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 18
+    label "S5777"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 763
+    retweet_count 0
+    favorite_count 1
+  ]
+  node [
+    id 19
+    label "S6031"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 2038
+    retweet_count 1
+    favorite_count 2
+  ]
+  node [
+    id 20
+    label "S3073"
+    brand "starbucks"
     influencer_status "No"
     sentiment "neutral"
-    user_followers_count 1
+    user_followers_count 772
     retweet_count 0
     favorite_count 0
   ]
   node [
-    id 102
-    label "D4205"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "negative"
-    user_followers_count 205
+    id 21
+    label "S2631"
+    brand "starbucks"
+    influencer_status "Yes"
+    sentiment "neutral"
+    user_followers_count 12374
     retweet_count 0
-    favorite_count 0
+    favorite_count 1
   ]
   node [
-    id 103
-    label "D3242"
+    id 22
+    label "D3141"
     brand "dunkin"
     influencer_status "No"
     sentiment "positive"
@@ -1040,2033 +230,3410 @@ graph [
     favorite_count 11
   ]
   node [
-    id 104
-    label "D369"
+    id 23
+    label "D4131"
     brand "dunkin"
     influencer_status "No"
+    sentiment "positive"
+    user_followers_count 197
+    retweet_count 0
+    favorite_count 2
+  ]
+  node [
+    id 24
+    label "D5371"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 84
+    retweet_count 0
+    favorite_count 12
+  ]
+  node [
+    id 25
+    label "S699"
+    brand "starbucks"
+    influencer_status "No"
     sentiment "neutral"
-    user_followers_count 2845
+    user_followers_count 3550
+    retweet_count 0
+    favorite_count 1
+  ]
+  node [
+    id 26
+    label "S6125"
+    brand "starbucks"
+    influencer_status "Yes"
+    sentiment "negative"
+    user_followers_count 156495
+    retweet_count 4
+    favorite_count 34
+  ]
+  node [
+    id 27
+    label "S4176"
+    brand "starbucks"
+    influencer_status "Yes"
+    sentiment "negative"
+    user_followers_count 4037
+    retweet_count 7
+    favorite_count 23
+  ]
+  node [
+    id 28
+    label "S2845"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 2042
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 29
+    label "S1599"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 893
+    retweet_count 0
+    favorite_count 4
+  ]
+  node [
+    id 30
+    label "S3631"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 863
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 31
+    label "S6280"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 22
+    retweet_count 0
+    favorite_count 2
+  ]
+  node [
+    id 32
+    label "S7422"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 52
+    retweet_count 0
+    favorite_count 1
+  ]
+  node [
+    id 33
+    label "S979"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 137
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 34
+    label "S4267"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 149
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 35
+    label "S6106"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "negative"
+    user_followers_count 142
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 36
+    label "S6035"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 901
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 37
+    label "S4455"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "negative"
+    user_followers_count 891
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 38
+    label "S991"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "negative"
+    user_followers_count 167
+    retweet_count 0
+    favorite_count 1
+  ]
+  node [
+    id 39
+    label "S3266"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 530
+    retweet_count 0
+    favorite_count 2
+  ]
+  node [
+    id 40
+    label "S1408"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 392
+    retweet_count 2
+    favorite_count 0
+  ]
+  node [
+    id 41
+    label "S152"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 3309
+    retweet_count 0
+    favorite_count 7
+  ]
+  node [
+    id 42
+    label "S2624"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "negative"
+    user_followers_count 467
+    retweet_count 0
+    favorite_count 2
+  ]
+  node [
+    id 43
+    label "S5391"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 50
+    retweet_count 0
+    favorite_count 2
+  ]
+  node [
+    id 44
+    label "S4203"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "negative"
+    user_followers_count 458
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 45
+    label "S4784"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "negative"
+    user_followers_count 82
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 46
+    label "S7820"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 28
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 47
+    label "S293"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 374
+    retweet_count 0
+    favorite_count 3
+  ]
+  node [
+    id 48
+    label "D5124"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 412
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 49
+    label "S5417"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 50
+    retweet_count 0
+    favorite_count 2
+  ]
+  node [
+    id 50
+    label "S4649"
+    brand "starbucks"
+    influencer_status "Yes"
+    sentiment "neutral"
+    user_followers_count 14000
+    retweet_count 13
+    favorite_count 35
+  ]
+  node [
+    id 51
+    label "S6623"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 700
+    retweet_count 2
+    favorite_count 21
+  ]
+  node [
+    id 52
+    label "S1056"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 42
+    retweet_count 0
+    favorite_count 1
+  ]
+  node [
+    id 53
+    label "S5717"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 118
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 54
+    label "D3591"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 404
+    retweet_count 0
+    favorite_count 3
+  ]
+  node [
+    id 55
+    label "S1229"
+    brand "starbucks"
+    influencer_status "Yes"
+    sentiment "neutral"
+    user_followers_count 9060
+    retweet_count 2
+    favorite_count 3
+  ]
+  node [
+    id 56
+    label "S7165"
+    brand "starbucks"
+    influencer_status "Yes"
+    sentiment "neutral"
+    user_followers_count 5371
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 57
+    label "S2380"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 623
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 58
+    label "S7656"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 67
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 59
+    label "S2152"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "negative"
+    user_followers_count 5
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 60
+    label "S5578"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 205
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 61
+    label "S7145"
+    brand "starbucks"
+    influencer_status "Yes"
+    sentiment "neutral"
+    user_followers_count 7694
+    retweet_count 0
+    favorite_count 1
+  ]
+  node [
+    id 62
+    label "D4572"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 285
+    retweet_count 0
+    favorite_count 5
+  ]
+  node [
+    id 63
+    label "S1078"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "negative"
+    user_followers_count 189
+    retweet_count 0
+    favorite_count 7
+  ]
+  node [
+    id 64
+    label "S5002"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 2417
+    retweet_count 0
+    favorite_count 3
+  ]
+  node [
+    id 65
+    label "S3491"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 1781
+    retweet_count 1
+    favorite_count 9
+  ]
+  node [
+    id 66
+    label "S2996"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 72
+    retweet_count 0
+    favorite_count 1
+  ]
+  node [
+    id 67
+    label "S3319"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 272
+    retweet_count 0
+    favorite_count 1
+  ]
+  node [
+    id 68
+    label "S1272"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 68
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 69
+    label "S2574"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 2933
     retweet_count 1
     favorite_count 4
   ]
   node [
-    id 105
-    label "D4989"
+    id 70
+    label "S3336"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 335
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 71
+    label "D6095"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "negative"
+    user_followers_count 18
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 72
+    label "S5176"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 735
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 73
+    label "S1428"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 681
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 74
+    label "S564"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "negative"
+    user_followers_count 2871
+    retweet_count 0
+    favorite_count 1
+  ]
+  node [
+    id 75
+    label "D7630"
     brand "dunkin"
     influencer_status "No"
     sentiment "neutral"
-    user_followers_count 81
+    user_followers_count 1498
+    retweet_count 0
+    favorite_count 8
+  ]
+  node [
+    id 76
+    label "D7223"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 336
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 77
+    label "S1842"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 230
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 78
+    label "S6326"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 1592
+    retweet_count 0
+    favorite_count 1
+  ]
+  node [
+    id 79
+    label "D1539"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 71
+    retweet_count 0
+    favorite_count 2
+  ]
+  node [
+    id 80
+    label "S1685"
+    brand "starbucks"
+    influencer_status "No"
+    sentiment "negative"
+    user_followers_count 214
+    retweet_count 0
+    favorite_count 2
+  ]
+  node [
+    id 81
+    label "D7517"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 906
+    retweet_count 0
+    favorite_count 1
+  ]
+  node [
+    id 82
+    label "D7273"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 84
+    retweet_count 0
+    favorite_count 1
+  ]
+  node [
+    id 83
+    label "D4998"
+    brand "dunkin"
+    influencer_status "Yes"
+    sentiment "positive"
+    user_followers_count 275391
+    retweet_count 2
+    favorite_count 8
+  ]
+  node [
+    id 84
+    label "D3018"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 85
+    retweet_count 0
+    favorite_count 1
+  ]
+  node [
+    id 85
+    label "D6252"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 408
+    retweet_count 0
+    favorite_count 2
+  ]
+  node [
+    id 86
+    label "D5042"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 507
+    retweet_count 0
+    favorite_count 2
+  ]
+  node [
+    id 87
+    label "D1209"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 227
+    retweet_count 0
+    favorite_count 3
+  ]
+  node [
+    id 88
+    label "D4405"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 3108
+    retweet_count 0
+    favorite_count 1
+  ]
+  node [
+    id 89
+    label "D6060"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "negative"
+    user_followers_count 14
+    retweet_count 0
+    favorite_count 2
+  ]
+  node [
+    id 90
+    label "D6686"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 171
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 91
+    label "D1415"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 117
+    retweet_count 0
+    favorite_count 1
+  ]
+  node [
+    id 92
+    label "D1863"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 134
+    retweet_count 0
+    favorite_count 1
+  ]
+  node [
+    id 93
+    label "D5273"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "negative"
+    user_followers_count 72
+    retweet_count 0
+    favorite_count 2
+  ]
+  node [
+    id 94
+    label "D3745"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 875
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 95
+    label "D6007"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 29
+    retweet_count 0
+    favorite_count 2
+  ]
+  node [
+    id 96
+    label "D361"
+    brand "dunkin"
+    influencer_status "Yes"
+    sentiment "positive"
+    user_followers_count 86016
+    retweet_count 1
+    favorite_count 2
+  ]
+  node [
+    id 97
+    label "D7047"
+    brand "dunkin"
+    influencer_status "Yes"
+    sentiment "negative"
+    user_followers_count 4489
+    retweet_count 0
+    favorite_count 2
+  ]
+  node [
+    id 98
+    label "D5766"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 179
+    retweet_count 1
+    favorite_count 1
+  ]
+  node [
+    id 99
+    label "D1610"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 357
+    retweet_count 1
+    favorite_count 9
+  ]
+  node [
+    id 100
+    label "D5549"
+    brand "dunkin"
+    influencer_status "Yes"
+    sentiment "neutral"
+    user_followers_count 21275
+    retweet_count 0
+    favorite_count 1
+  ]
+  node [
+    id 101
+    label "D2350"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 241
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 102
+    label "D4818"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 2006
+    retweet_count 5
+    favorite_count 35
+  ]
+  node [
+    id 103
+    label "D3674"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 4
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 104
+    label "D5606"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 86
+    retweet_count 0
+    favorite_count 1
+  ]
+  node [
+    id 105
+    label "D5053"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 331
     retweet_count 0
     favorite_count 1
   ]
   node [
     id 106
-    label "D2905"
+    label "D6679"
     brand "dunkin"
     influencer_status "No"
-    sentiment "negative"
-    user_followers_count 15
+    sentiment "positive"
+    user_followers_count 108
     retweet_count 0
-    favorite_count 0
+    favorite_count 1
   ]
   node [
     id 107
-    label "D5603"
+    label "D6462"
     brand "dunkin"
     influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 333
+    sentiment "positive"
+    user_followers_count 807
     retweet_count 0
     favorite_count 0
   ]
   node [
     id 108
-    label "D3813"
-    brand "dunkin"
-    influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 397
-    retweet_count 0
-    favorite_count 6
-  ]
-  node [
-    id 109
-    label "D5403"
+    label "D992"
     brand "dunkin"
     influencer_status "No"
     sentiment "negative"
-    user_followers_count 541
+    user_followers_count 2156
+    retweet_count 4
+    favorite_count 21
+  ]
+  node [
+    id 109
+    label "D6555"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 115
     retweet_count 0
-    favorite_count 7
+    favorite_count 0
   ]
   node [
     id 110
-    label "D6383"
+    label "D7540"
     brand "dunkin"
-    influencer_status "No"
+    influencer_status "Yes"
     sentiment "neutral"
-    user_followers_count 1630
+    user_followers_count 18338
     retweet_count 0
-    favorite_count 8
+    favorite_count 2
   ]
   node [
     id 111
-    label "D5224"
-    brand "dunkin"
-    influencer_status "Yes"
-    sentiment "positive"
-    user_followers_count 9161
-    retweet_count 31
-    favorite_count 32
-  ]
-  node [
-    id 112
-    label "D397"
+    label "D1636"
     brand "dunkin"
     influencer_status "No"
     sentiment "positive"
-    user_followers_count 672
+    user_followers_count 30
+    retweet_count 0
+    favorite_count 1
+  ]
+  node [
+    id 112
+    label "D6133"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 32
     retweet_count 0
     favorite_count 0
   ]
   node [
     id 113
-    label "D20"
+    label "D3560"
     brand "dunkin"
     influencer_status "No"
     sentiment "positive"
-    user_followers_count 2024
+    user_followers_count 177
+    retweet_count 0
+    favorite_count 1
+  ]
+  node [
+    id 114
+    label "D3586"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 171
+    retweet_count 0
+    favorite_count 2
+  ]
+  node [
+    id 115
+    label "D4002"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 84
     retweet_count 0
     favorite_count 0
   ]
   node [
-    id 114
-    label "D3703"
+    id 116
+    label "D3714"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 719
+    retweet_count 1
+    favorite_count 3
+  ]
+  node [
+    id 117
+    label "D7431"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "neutral"
+    user_followers_count 408
+    retweet_count 0
+    favorite_count 2
+  ]
+  node [
+    id 118
+    label "D5372"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "negative"
+    user_followers_count 268
+    retweet_count 0
+    favorite_count 1
+  ]
+  node [
+    id 119
+    label "D2552"
     brand "dunkin"
     influencer_status "No"
     sentiment "positive"
-    user_followers_count 601
+    user_followers_count 2681
+    retweet_count 0
+    favorite_count 0
+  ]
+  node [
+    id 120
+    label "D3365"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 1687
+    retweet_count 0
+    favorite_count 1
+  ]
+  node [
+    id 121
+    label "D180"
+    brand "dunkin"
+    influencer_status "Yes"
+    sentiment "positive"
+    user_followers_count 144184
+    retweet_count 5
+    favorite_count 29
+  ]
+  node [
+    id 122
+    label "D4438"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 77
     retweet_count 0
     favorite_count 3
   ]
   node [
-    id 115
-    label "D133"
+    id 123
+    label "D886"
     brand "dunkin"
     influencer_status "No"
-    sentiment "neutral"
-    user_followers_count 590
+    sentiment "positive"
+    user_followers_count 73
+    retweet_count 0
+    favorite_count 6
+  ]
+  node [
+    id 124
+    label "D5665"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "negative"
+    user_followers_count 32
     retweet_count 0
     favorite_count 0
+  ]
+  node [
+    id 125
+    label "D5978"
+    brand "dunkin"
+    influencer_status "No"
+    sentiment "positive"
+    user_followers_count 472
+    retweet_count 0
+    favorite_count 2
   ]
   edge [
     source 0
     target 1
-    common_words "hit"
     common_words "starbuck"
-    common_words "got"
+    common_words "latt"
+    common_words "need"
     count_of_words 3
   ]
   edge [
     source 0
     target 2
-    common_words "went"
-    common_words "didnt"
-    common_words "got"
-    count_of_words 3
-  ]
-  edge [
-    source 1
-    target 17
-    common_words "store"
-    common_words "use"
     common_words "starbuck"
-    common_words "worker"
+    common_words "think"
+    common_words "latt"
+    common_words "u"
     count_of_words 4
   ]
   edge [
     source 1
     target 18
-    common_words "store"
-    common_words "use"
     common_words "starbuck"
-    common_words "worker"
-    count_of_words 4
+    common_words "latt"
+    common_words "make"
+    count_of_words 3
   ]
   edge [
-    source 1
-    target 49
+    source 2
+    target 34
     common_words "starbuck"
-    common_words "come"
-    common_words "manag"
-    common_words "book"
-    count_of_words 4
+    common_words "view"
+    common_words "world"
+    count_of_words 3
   ]
   edge [
-    source 1
-    target 35
-    common_words "store"
+    source 2
+    target 18
+    common_words "latt"
     common_words "starbuck"
-    common_words "back"
-    common_words "one"
-    count_of_words 4
-  ]
-  edge [
-    source 1
-    target 64
-    common_words "guy"
-    common_words "work"
-    common_words "happen"
-    count_of_words 3
-  ]
-  edge [
-    source 1
-    target 60
-    common_words "guy"
-    common_words "use"
-    common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 1
-    target 65
-    common_words "point"
-    common_words "use"
-    common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 1
-    target 23
-    common_words "use"
-    common_words "store"
-    common_words "starbuck"
-    common_words "one"
-    count_of_words 4
-  ]
-  edge [
-    source 2
-    target 70
-    common_words "donut"
-    common_words "dunkin"
-    common_words "got"
-    count_of_words 3
-  ]
-  edge [
-    source 2
-    target 72
-    common_words "dunkin"
-    common_words "said"
-    common_words "ladi"
-    count_of_words 3
-  ]
-  edge [
-    source 2
-    target 103
-    common_words "sweet"
-    common_words "dunkin"
-    common_words "ladi"
-    count_of_words 3
-  ]
-  edge [
-    source 2
-    target 81
-    common_words "didnt"
-    common_words "dunkin"
-    common_words "donut"
-    common_words "tell"
-    count_of_words 4
-  ]
-  edge [
-    source 2
-    target 71
-    common_words "dunkin"
-    common_words "got"
-    common_words "donut"
-    count_of_words 3
-  ]
-  edge [
-    source 2
-    target 104
-    common_words "dunkin"
-    common_words "donut"
-    common_words "work"
-    count_of_words 3
-  ]
-  edge [
-    source 2
-    target 74
-    common_words "went"
-    common_words "dunkin"
-    common_words "donut"
+    common_words "tri"
     count_of_words 3
   ]
   edge [
     source 3
     target 4
-    common_words "get"
-    common_words "make"
     common_words "starbuck"
+    common_words "start"
+    common_words "get"
     count_of_words 3
   ]
   edge [
     source 3
     target 5
-    common_words "get"
-    common_words "go"
     common_words "starbuck"
+    common_words "im"
+    common_words "get"
     count_of_words 3
   ]
   edge [
     source 3
     target 6
-    common_words "get"
-    common_words "go"
+    common_words "close"
     common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 3
-    target 7
     common_words "get"
-    common_words "go"
-    common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 4
-    target 11
-    common_words "get"
-    common_words "ice"
-    common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 4
-    target 12
-    common_words "get"
-    common_words "ice"
-    common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 4
-    target 7
-    common_words "get"
-    common_words "ice"
-    common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 4
-    target 40
-    common_words "get"
-    common_words "make"
-    common_words "ice"
-    common_words "tea"
+    common_words "nice"
     count_of_words 4
   ]
   edge [
-    source 5
-    target 6
-    common_words "get"
-    common_words "go"
-    common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 5
+    source 3
     target 7
-    common_words "get"
-    common_words "go"
+    common_words "day"
     common_words "starbuck"
-    count_of_words 3
+    common_words "alreadi"
+    common_words "get"
+    count_of_words 4
   ]
   edge [
-    source 6
-    target 7
-    common_words "get"
-    common_words "go"
+    source 3
+    target 8
     common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 6
-    target 47
-    common_words "get"
-    common_words "starbuck"
+    common_words "ill"
     common_words "im"
-    count_of_words 3
+    common_words "fuck"
+    count_of_words 4
   ]
   edge [
-    source 6
-    target 40
-    common_words "tire"
-    common_words "get"
-    common_words "im"
-    count_of_words 3
-  ]
-  edge [
-    source 7
-    target 11
-    common_words "get"
-    common_words "ice"
-    common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 7
-    target 12
-    common_words "get"
-    common_words "ice"
-    common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 7
-    target 16
-    common_words "sandwich"
-    common_words "get"
-    common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 8
+    source 3
     target 9
     common_words "starbuck"
-    common_words "half"
-    common_words "drink"
+    common_words "im"
+    common_words "get"
     count_of_words 3
   ]
   edge [
-    source 8
+    source 3
     target 10
+    common_words "day"
     common_words "starbuck"
-    common_words "yall"
-    common_words "drink"
+    common_words "get"
     count_of_words 3
   ]
   edge [
-    source 8
+    source 3
     target 11
-    common_words "get"
-    common_words "starbuck"
-    common_words "tuesday"
-    common_words "drink"
-    count_of_words 4
+    common_words "day"
+    common_words "start"
+    common_words "fuck"
+    count_of_words 3
   ]
   edge [
-    source 8
-    target 12
-    common_words "get"
-    common_words "starbuck"
-    common_words "forget"
-    common_words "dont"
-    count_of_words 4
-  ]
-  edge [
-    source 8
-    target 13
-    common_words "starbuck"
-    common_words "half"
-    common_words "tuesday"
-    common_words "drink"
-    count_of_words 4
-  ]
-  edge [
-    source 8
+    source 5
     target 14
+    common_words "starbuck"
+    common_words "coffe"
+    common_words "ice"
+    common_words "today"
+    count_of_words 4
+  ]
+  edge [
+    source 5
+    target 51
+    common_words "starbuck"
+    common_words "that"
+    common_words "today"
+    count_of_words 3
+  ]
+  edge [
+    source 5
+    target 15
+    common_words "starbuck"
+    common_words "coffe"
+    common_words "ice"
+    count_of_words 3
+  ]
+  edge [
+    source 5
+    target 16
+    common_words "starbuck"
+    common_words "today"
+    common_words "ice"
+    count_of_words 3
+  ]
+  edge [
+    source 5
+    target 18
+    common_words "starbuck"
+    common_words "coffe"
     common_words "get"
+    count_of_words 3
+  ]
+  edge [
+    source 5
+    target 9
+    common_words "starbuck"
+    common_words "get"
+    common_words "im"
+    common_words "ice"
+    count_of_words 4
+  ]
+  edge [
+    source 5
+    target 70
+    common_words "starbuck"
+    common_words "think"
+    common_words "coffe"
+    count_of_words 3
+  ]
+  edge [
+    source 5
+    target 20
+    common_words "starbuck"
+    common_words "today"
+    common_words "get"
+    common_words "ice"
+    count_of_words 4
+  ]
+  edge [
+    source 5
+    target 21
+    common_words "starbuck"
+    common_words "today"
+    common_words "coffe"
+    count_of_words 3
+  ]
+  edge [
+    source 5
+    target 71
+    common_words "think"
+    common_words "get"
+    common_words "im"
+    count_of_words 3
+  ]
+  edge [
+    source 6
+    target 33
+    common_words "store"
+    common_words "starbuck"
+    common_words "check"
+    count_of_words 3
+  ]
+  edge [
+    source 6
+    target 35
+    common_words "store"
+    common_words "starbuck"
+    common_words "employe"
+    count_of_words 3
+  ]
+  edge [
+    source 6
+    target 50
+    common_words "store"
+    common_words "starbuck"
+    common_words "report"
+    common_words "close"
+    count_of_words 4
+  ]
+  edge [
+    source 6
+    target 26
+    common_words "store"
+    common_words "starbuck"
+    common_words "rate"
+    common_words "crime"
+    common_words "high"
+    common_words "close"
+    count_of_words 6
+  ]
+  edge [
+    source 6
+    target 36
+    common_words "store"
+    common_words "starbuck"
+    common_words "report"
+    common_words "close"
+    count_of_words 4
+  ]
+  edge [
+    source 6
+    target 7
+    common_words "starbuck"
+    common_words "way"
+    common_words "get"
+    count_of_words 3
+  ]
+  edge [
+    source 6
+    target 18
+    common_words "starbuck"
+    common_words "right"
+    common_words "get"
+    count_of_words 3
+  ]
+  edge [
+    source 6
+    target 55
+    common_words "high"
+    common_words "close"
+    common_words "starbuck"
+    common_words "store"
+    count_of_words 4
+  ]
+  edge [
+    source 6
+    target 56
+    common_words "close"
+    common_words "starbuck"
+    common_words "store"
+    count_of_words 3
+  ]
+  edge [
+    source 6
+    target 27
+    common_words "crime"
+    common_words "close"
+    common_words "starbuck"
+    common_words "store"
+    count_of_words 4
+  ]
+  edge [
+    source 7
+    target 29
     common_words "starbuck"
     common_words "half"
+    common_words "drink"
+    count_of_words 3
+  ]
+  edge [
+    source 7
+    target 41
+    common_words "starbuck"
+    common_words "drink"
+    common_words "got"
+    count_of_words 3
+  ]
+  edge [
+    source 7
+    target 58
+    common_words "drink"
+    common_words "get"
+    common_words "go"
+    count_of_words 3
+  ]
+  edge [
+    source 7
+    target 39
+    common_words "starbuck"
+    common_words "half"
+    common_words "drink"
+    count_of_words 3
+  ]
+  edge [
+    source 7
+    target 68
+    common_words "starbuck"
+    common_words "go"
+    common_words "get"
+    count_of_words 3
+  ]
+  edge [
+    source 7
+    target 15
+    common_words "starbuck"
+    common_words "half"
+    common_words "drink"
+    common_words "amp"
+    common_words "got"
+    count_of_words 5
+  ]
+  edge [
+    source 7
+    target 66
+    common_words "starbuck"
+    common_words "go"
+    common_words "cup"
+    count_of_words 3
+  ]
+  edge [
+    source 7
+    target 18
+    common_words "get"
+    common_words "starbuck"
+    common_words "amp"
+    count_of_words 3
+  ]
+  edge [
+    source 7
+    target 9
+    common_words "get"
+    common_words "drink"
+    common_words "starbuck"
+    common_words "half"
+    count_of_words 4
+  ]
+  edge [
+    source 7
+    target 74
+    common_words "get"
+    common_words "starbuck"
+    common_words "amp"
+    count_of_words 3
+  ]
+  edge [
+    source 7
+    target 20
+    common_words "get"
+    common_words "drink"
+    common_words "starbuck"
+    common_words "go"
+    count_of_words 4
+  ]
+  edge [
+    source 7
+    target 10
+    common_words "get"
+    common_words "day"
+    common_words "starbuck"
+    common_words "cup"
+    count_of_words 4
+  ]
+  edge [
+    source 7
+    target 75
+    common_words "get"
+    common_words "hous"
+    common_words "go"
+    count_of_words 3
+  ]
+  edge [
+    source 7
+    target 48
+    common_words "starbuck"
+    common_words "bc"
+    common_words "go"
     count_of_words 3
   ]
   edge [
     source 8
-    target 15
+    target 52
     common_words "starbuck"
-    common_words "half"
-    common_words "yall"
-    common_words "drink"
-    count_of_words 4
+    common_words "ladi"
+    common_words "im"
+    count_of_words 3
   ]
   edge [
     source 8
-    target 16
-    common_words "get"
+    target 73
+    common_words "starbuck"
+    common_words "actual"
+    common_words "put"
+    count_of_words 3
+  ]
+  edge [
+    source 9
+    target 28
     common_words "starbuck"
     common_words "half"
-    common_words "dont"
+    common_words "tuesday"
+    count_of_words 3
+  ]
+  edge [
+    source 9
+    target 29
+    common_words "starbuck"
+    common_words "half"
+    common_words "tuesday"
+    common_words "drink"
     count_of_words 4
   ]
   edge [
     source 9
-    target 13
-    common_words "half"
+    target 58
+    common_words "drink"
+    common_words "get"
+    common_words "ice"
+    count_of_words 3
+  ]
+  edge [
+    source 9
+    target 39
     common_words "starbuck"
+    common_words "half"
     common_words "drink"
     count_of_words 3
   ]
   edge [
     source 9
     target 15
-    common_words "half"
     common_words "starbuck"
+    common_words "half"
+    common_words "tuesday"
     common_words "drink"
-    count_of_words 3
+    common_words "ice"
+    count_of_words 5
   ]
   edge [
     source 9
     target 16
-    common_words "half"
     common_words "starbuck"
-    common_words "tomorrow"
+    common_words "tuesday"
+    common_words "ice"
+    count_of_words 3
+  ]
+  edge [
+    source 9
+    target 40
+    common_words "starbuck"
+    common_words "drink"
+    common_words "tuesday"
+    count_of_words 3
+  ]
+  edge [
+    source 9
+    target 20
+    common_words "starbuck"
+    common_words "drink"
+    common_words "get"
+    common_words "ice"
+    count_of_words 4
+  ]
+  edge [
+    source 9
+    target 30
+    common_words "starbuck"
+    common_words "half"
+    common_words "tuesday"
+    count_of_words 3
+  ]
+  edge [
+    source 9
+    target 73
+    common_words "starbuck"
+    common_words "drink"
+    common_words "ice"
     count_of_words 3
   ]
   edge [
     source 10
-    target 15
+    target 31
     common_words "starbuck"
-    common_words "yall"
-    common_words "drink"
+    common_words "food"
+    common_words "cup"
     count_of_words 3
   ]
   edge [
-    source 11
-    target 12
+    source 10
+    target 57
+    common_words "starbuck"
+    common_words "lot"
+    common_words "day"
+    common_words "park"
+    count_of_words 4
+  ]
+  edge [
+    source 10
+    target 40
+    common_words "starbuck"
+    common_words "cold"
+    common_words "everi"
+    count_of_words 3
+  ]
+  edge [
+    source 10
+    target 74
     common_words "get"
-    common_words "ice"
     common_words "starbuck"
+    common_words "citi"
     count_of_words 3
   ]
   edge [
-    source 11
-    target 13
-    common_words "starbuck"
-    common_words "tuesday"
-    common_words "drink"
-    count_of_words 3
-  ]
-  edge [
-    source 11
-    target 53
-    common_words "free"
-    common_words "starbuck"
-    common_words "drink"
-    count_of_words 3
-  ]
-  edge [
-    source 11
-    target 16
+    source 10
+    target 81
+    common_words "day"
+    common_words "everi"
     common_words "get"
-    common_words "free"
-    common_words "starbuck"
+    count_of_words 3
+  ]
+  edge [
+    source 11
+    target 22
+    common_words "start"
+    common_words "dunkin"
+    common_words "coffe"
     count_of_words 3
   ]
   edge [
     source 12
-    target 16
-    common_words "today"
-    common_words "get"
-    common_words "starbuck"
-    common_words "dont"
+    target 13
+    common_words "black"
+    common_words "coffe"
+    common_words "drink"
+    count_of_words 3
+  ]
+  edge [
+    source 13
+    target 103
+    common_words "donut"
+    common_words "dunkin"
+    common_words "drink"
+    count_of_words 3
+  ]
+  edge [
+    source 13
+    target 86
+    common_words "dunkin"
+    common_words "coffe"
+    common_words "donut"
+    count_of_words 3
+  ]
+  edge [
+    source 13
+    target 62
+    common_words "dunkin"
+    common_words "coffe"
+    common_words "drink"
+    count_of_words 3
+  ]
+  edge [
+    source 13
+    target 24
+    common_words "dunkin"
+    common_words "drink"
+    common_words "like"
+    count_of_words 3
+  ]
+  edge [
+    source 13
+    target 92
+    common_words "dunkin"
+    common_words "donut"
+    common_words "like"
+    count_of_words 3
+  ]
+  edge [
+    source 13
+    target 87
+    common_words "donut"
+    common_words "dunkin"
+    common_words "coffe"
+    count_of_words 3
+  ]
+  edge [
+    source 13
+    target 83
+    common_words "dunkin"
+    common_words "donut"
+    common_words "like"
+    count_of_words 3
+  ]
+  edge [
+    source 13
+    target 112
+    common_words "dunkin"
+    common_words "black"
+    common_words "donut"
+    common_words "your"
     count_of_words 4
   ]
   edge [
     source 13
-    target 15
-    common_words "half"
-    common_words "starbuck"
-    common_words "drink"
-    count_of_words 3
-  ]
-  edge [
-    source 14
-    target 54
-    common_words "use"
-    common_words "requir"
-    common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 14
-    target 35
-    common_words "take"
+    target 84
+    common_words "dunkin"
+    common_words "coffe"
     common_words "like"
-    common_words "starbuck"
+    count_of_words 3
+  ]
+  edge [
+    source 13
+    target 107
+    common_words "donut"
+    common_words "dunkin"
+    common_words "like"
+    count_of_words 3
+  ]
+  edge [
+    source 13
+    target 104
+    common_words "dunkin"
+    common_words "drink"
+    common_words "like"
+    count_of_words 3
+  ]
+  edge [
+    source 13
+    target 106
+    common_words "dunkin"
+    common_words "like"
+    common_words "donut"
+    count_of_words 3
+  ]
+  edge [
+    source 13
+    target 108
+    common_words "dunkin"
+    common_words "like"
+    common_words "donut"
+    count_of_words 3
+  ]
+  edge [
+    source 13
+    target 109
+    common_words "dunkin"
+    common_words "like"
+    common_words "donut"
+    count_of_words 3
+  ]
+  edge [
+    source 13
+    target 98
+    common_words "dunkin"
+    common_words "like"
+    common_words "donut"
     count_of_words 3
   ]
   edge [
     source 14
-    target 59
-    common_words "leav"
-    common_words "get"
+    target 15
     common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 14
-    target 60
-    common_words "use"
-    common_words "get"
-    common_words "starbuck"
+    common_words "coffe"
+    common_words "ice"
     count_of_words 3
   ]
   edge [
     source 14
     target 16
-    common_words "half"
-    common_words "get"
     common_words "starbuck"
+    common_words "ice"
+    common_words "today"
+    count_of_words 3
+  ]
+  edge [
+    source 14
+    target 17
+    common_words "starbuck"
+    common_words "tri"
+    common_words "coffe"
+    count_of_words 3
+  ]
+  edge [
+    source 14
+    target 18
+    common_words "starbuck"
+    common_words "tri"
+    common_words "coffe"
+    count_of_words 3
+  ]
+  edge [
+    source 14
+    target 19
+    common_words "starbuck"
+    common_words "love"
+    common_words "coffe"
+    count_of_words 3
+  ]
+  edge [
+    source 14
+    target 20
+    common_words "starbuck"
+    common_words "ice"
+    common_words "today"
+    count_of_words 3
+  ]
+  edge [
+    source 14
+    target 21
+    common_words "starbuck"
+    common_words "coffe"
+    common_words "today"
+    count_of_words 3
+  ]
+  edge [
+    source 14
+    target 22
+    common_words "tri"
+    common_words "coffe"
+    common_words "ice"
+    count_of_words 3
+  ]
+  edge [
+    source 14
+    target 23
+    common_words "love"
+    common_words "coffe"
+    common_words "ice"
+    count_of_words 3
+  ]
+  edge [
+    source 14
+    target 24
+    common_words "starbuck"
+    common_words "tri"
+    common_words "take"
     count_of_words 3
   ]
   edge [
     source 15
-    target 53
+    target 28
+    common_words "starbuck"
+    common_words "half"
+    common_words "tuesday"
+    count_of_words 3
+  ]
+  edge [
+    source 15
+    target 29
+    common_words "starbuck"
+    common_words "half"
+    common_words "tuesday"
+    common_words "drink"
+    count_of_words 4
+  ]
+  edge [
+    source 15
+    target 41
+    common_words "starbuck"
     common_words "drink"
     common_words "got"
+    count_of_words 3
+  ]
+  edge [
+    source 15
+    target 35
     common_words "starbuck"
+    common_words "deal"
+    common_words "drink"
+    count_of_words 3
+  ]
+  edge [
+    source 15
+    target 58
+    common_words "drink"
+    common_words "cold"
+    common_words "ice"
+    count_of_words 3
+  ]
+  edge [
+    source 15
+    target 39
+    common_words "starbuck"
+    common_words "half"
+    common_words "cold"
+    common_words "drink"
+    count_of_words 4
+  ]
+  edge [
+    source 15
+    target 16
+    common_words "starbuck"
+    common_words "tuesday"
+    common_words "ice"
+    count_of_words 3
+  ]
+  edge [
+    source 15
+    target 40
+    common_words "starbuck"
+    common_words "month"
+    common_words "cold"
+    common_words "tuesday"
+    common_words "drink"
+    count_of_words 5
+  ]
+  edge [
+    source 15
+    target 18
+    common_words "starbuck"
+    common_words "coffe"
+    common_words "amp"
+    count_of_words 3
+  ]
+  edge [
+    source 15
+    target 20
+    common_words "starbuck"
+    common_words "drink"
+    common_words "ice"
+    count_of_words 3
+  ]
+  edge [
+    source 15
+    target 21
+    common_words "starbuck"
+    common_words "half"
+    common_words "coffe"
+    count_of_words 3
+  ]
+  edge [
+    source 15
+    target 30
+    common_words "starbuck"
+    common_words "half"
+    common_words "tuesday"
+    count_of_words 3
+  ]
+  edge [
+    source 15
+    target 73
+    common_words "starbuck"
+    common_words "drink"
+    common_words "ice"
     count_of_words 3
   ]
   edge [
     source 16
     target 28
-    common_words "know"
     common_words "starbuck"
     common_words "dont"
-    count_of_words 3
-  ]
-  edge [
-    source 16
-    target 36
-    common_words "that"
-    common_words "everyon"
-    common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 16
-    target 58
-    common_words "today"
-    common_words "hope"
-    common_words "starbuck"
-    common_words "day"
+    common_words "forget"
+    common_words "tuesday"
     count_of_words 4
   ]
   edge [
     source 16
-    target 30
-    common_words "love"
-    common_words "get"
-    common_words "that"
+    target 29
     common_words "starbuck"
+    common_words "dont"
+    common_words "forget"
+    common_words "tuesday"
     count_of_words 4
   ]
   edge [
     source 16
-    target 60
-    common_words "get"
-    common_words "hope"
+    target 40
     common_words "starbuck"
+    common_words "tuesday"
+    common_words "today"
     count_of_words 3
   ]
   edge [
     source 16
-    target 67
-    common_words "get"
-    common_words "hope"
-    common_words "love"
-    count_of_words 3
-  ]
-  edge [
-    source 16
-    target 61
-    common_words "get"
-    common_words "love"
+    target 20
     common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 16
-    target 62
     common_words "today"
-    common_words "get"
-    common_words "day"
-    count_of_words 3
-  ]
-  edge [
-    source 16
-    target 68
-    common_words "sandwich"
-    common_words "today"
-    common_words "get"
-    common_words "know"
-    count_of_words 4
-  ]
-  edge [
-    source 16
-    target 69
-    common_words "free"
-    common_words "that"
-    common_words "know"
+    common_words "ice"
     count_of_words 3
   ]
   edge [
     source 17
     target 18
-    common_words "store"
-    common_words "drug"
-    common_words "close"
-    common_words "use"
-    common_words "u"
-    common_words "report"
-    common_words "cafe"
     common_words "starbuck"
-    common_words "worker"
-    common_words "relat"
-    common_words "disrupt"
-    common_words "incid"
-    count_of_words 12
-  ]
-  edge [
-    source 17
-    target 19
-    common_words "drug"
-    common_words "close"
-    common_words "use"
-    common_words "starbuck"
-    count_of_words 4
-  ]
-  edge [
-    source 17
-    target 20
-    common_words "store"
-    common_words "close"
-    common_words "starbuck"
-    common_words "incid"
-    count_of_words 4
-  ]
-  edge [
-    source 17
-    target 21
-    common_words "drug"
-    common_words "close"
-    common_words "use"
-    count_of_words 3
-  ]
-  edge [
-    source 17
-    target 22
-    common_words "store"
-    common_words "drug"
-    common_words "close"
-    common_words "starbuck"
-    count_of_words 4
-  ]
-  edge [
-    source 17
-    target 23
-    common_words "store"
-    common_words "drug"
-    common_words "close"
-    common_words "use"
-    common_words "starbuck"
+    common_words "better"
+    common_words "much"
+    common_words "tri"
+    common_words "coffe"
     count_of_words 5
   ]
   edge [
     source 18
-    target 19
-    common_words "drug"
-    common_words "close"
-    common_words "use"
+    target 33
     common_words "starbuck"
-    count_of_words 4
-  ]
-  edge [
-    source 18
-    target 20
-    common_words "store"
-    common_words "close"
-    common_words "starbuck"
-    common_words "incid"
-    count_of_words 4
-  ]
-  edge [
-    source 18
-    target 21
-    common_words "drug"
-    common_words "close"
-    common_words "use"
+    common_words "job"
+    common_words "amp"
     count_of_words 3
   ]
   edge [
     source 18
-    target 22
-    common_words "store"
-    common_words "drug"
-    common_words "close"
+    target 52
     common_words "starbuck"
-    count_of_words 4
+    common_words "instead"
+    common_words "amp"
+    count_of_words 3
   ]
   edge [
     source 18
-    target 23
-    common_words "store"
-    common_words "drug"
-    common_words "close"
-    common_words "use"
+    target 37
     common_words "starbuck"
-    count_of_words 5
+    common_words "job"
+    common_words "amp"
+    count_of_words 3
   ]
   edge [
-    source 19
-    target 48
-    common_words "drug"
-    common_words "crime"
+    source 18
+    target 74
+    common_words "get"
     common_words "starbuck"
+    common_words "amp"
+    count_of_words 3
+  ]
+  edge [
+    source 18
+    target 62
+    common_words "latt"
+    common_words "coffe"
+    common_words "decaf"
+    count_of_words 3
+  ]
+  edge [
+    source 18
+    target 24
+    common_words "starbuck"
+    common_words "instead"
+    common_words "tri"
     count_of_words 3
   ]
   edge [
     source 19
-    target 20
-    common_words "close"
-    common_words "portland"
-    common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 19
-    target 21
-    common_words "drug"
-    common_words "dc"
-    common_words "close"
-    common_words "portland"
-    common_words "use"
-    common_words "la"
-    common_words "crime"
-    count_of_words 7
-  ]
-  edge [
-    source 19
-    target 22
-    common_words "drug"
-    common_words "close"
-    common_words "crime"
-    common_words "starbuck"
-    count_of_words 4
-  ]
-  edge [
-    source 19
-    target 23
-    common_words "drug"
-    common_words "close"
-    common_words "use"
-    common_words "starbuck"
-    count_of_words 4
-  ]
-  edge [
-    source 20
-    target 21
-    common_words "seattl"
-    common_words "close"
-    common_words "portland"
-    count_of_words 3
-  ]
-  edge [
-    source 20
     target 57
-    common_words "citi"
-    common_words "close"
     common_words "starbuck"
+    common_words "lot"
+    common_words "lol"
     count_of_words 3
   ]
   edge [
     source 20
-    target 22
-    common_words "store"
-    common_words "due"
-    common_words "close"
+    target 29
     common_words "starbuck"
-    count_of_words 4
+    common_words "app"
+    common_words "drink"
+    count_of_words 3
   ]
   edge [
     source 20
-    target 23
-    common_words "store"
-    common_words "due"
-    common_words "close"
+    target 41
     common_words "starbuck"
-    count_of_words 4
-  ]
-  edge [
-    source 21
-    target 22
-    common_words "drug"
-    common_words "close"
-    common_words "crime"
+    common_words "drink"
+    common_words "today"
     count_of_words 3
   ]
   edge [
-    source 21
-    target 23
-    common_words "drug"
-    common_words "close"
-    common_words "use"
-    count_of_words 3
-  ]
-  edge [
-    source 22
-    target 48
-    common_words "drug"
-    common_words "crime"
-    common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 22
-    target 23
-    common_words "store"
-    common_words "due"
-    common_words "drug"
-    common_words "close"
-    common_words "starbuck"
+    source 20
+    target 58
+    common_words "drink"
+    common_words "get"
+    common_words "u"
+    common_words "ice"
+    common_words "go"
     count_of_words 5
+  ]
+  edge [
+    source 20
+    target 39
+    common_words "starbuck"
+    common_words "app"
+    common_words "drink"
+    count_of_words 3
+  ]
+  edge [
+    source 20
+    target 68
+    common_words "starbuck"
+    common_words "go"
+    common_words "get"
+    count_of_words 3
+  ]
+  edge [
+    source 20
+    target 40
+    common_words "starbuck"
+    common_words "drink"
+    common_words "today"
+    count_of_words 3
+  ]
+  edge [
+    source 20
+    target 73
+    common_words "starbuck"
+    common_words "drink"
+    common_words "ice"
+    count_of_words 3
+  ]
+  edge [
+    source 20
+    target 48
+    common_words "starbuck"
+    common_words "yall"
+    common_words "go"
+    count_of_words 3
+  ]
+  edge [
+    source 22
+    target 85
+    common_words "dunkin"
+    common_words "coffe"
+    common_words "ice"
+    count_of_words 3
+  ]
+  edge [
+    source 22
+    target 23
+    common_words "dunkin"
+    common_words "coffe"
+    common_words "ice"
+    common_words "vanilla"
+    count_of_words 4
+  ]
+  edge [
+    source 22
+    target 86
+    common_words "dunkin"
+    common_words "coffe"
+    common_words "ice"
+    count_of_words 3
+  ]
+  edge [
+    source 22
+    target 24
+    common_words "tri"
+    common_words "dunkin"
+    common_words "order"
+    count_of_words 3
+  ]
+  edge [
+    source 22
+    target 87
+    common_words "dunkin"
+    common_words "coffe"
+    common_words "ice"
+    count_of_words 3
+  ]
+  edge [
+    source 22
+    target 88
+    common_words "dunkin"
+    common_words "coffe"
+    common_words "ice"
+    count_of_words 3
+  ]
+  edge [
+    source 22
+    target 89
+    common_words "dunkin"
+    common_words "coffe"
+    common_words "ice"
+    count_of_words 3
   ]
   edge [
     source 23
+    target 85
+    common_words "dunkin"
+    common_words "coffe"
+    common_words "ice"
+    count_of_words 3
+  ]
+  edge [
+    source 23
+    target 86
+    common_words "dunkin"
+    common_words "coffe"
+    common_words "ice"
+    count_of_words 3
+  ]
+  edge [
+    source 23
+    target 62
+    common_words "dunkin"
+    common_words "coffe"
+    common_words "bean"
+    count_of_words 3
+  ]
+  edge [
+    source 23
+    target 87
+    common_words "dunkin"
+    common_words "coffe"
+    common_words "ice"
+    count_of_words 3
+  ]
+  edge [
+    source 23
+    target 88
+    common_words "dunkin"
+    common_words "coffe"
+    common_words "ice"
+    count_of_words 3
+  ]
+  edge [
+    source 23
+    target 89
+    common_words "dunkin"
+    common_words "coffe"
+    common_words "ice"
+    count_of_words 3
+  ]
+  edge [
+    source 23
+    target 94
+    common_words "vanilla"
+    common_words "dunkin"
+    common_words "bean"
+    count_of_words 3
+  ]
+  edge [
+    source 23
+    target 95
+    common_words "dunkin"
+    common_words "coffe"
+    common_words "love"
+    count_of_words 3
+  ]
+  edge [
+    source 24
     target 35
-    common_words "store"
     common_words "starbuck"
-    common_words "one"
+    common_words "barista"
+    common_words "drink"
     count_of_words 3
   ]
   edge [
     source 24
-    target 25
-    common_words "thru"
-    common_words "drive"
+    target 52
     common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 24
-    target 26
-    common_words "thru"
-    common_words "drive"
-    common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 24
-    target 27
+    common_words "instead"
+    common_words "like"
     common_words "order"
-    common_words "drive"
+    count_of_words 4
+  ]
+  edge [
+    source 24
+    target 39
     common_words "starbuck"
+    common_words "tri"
+    common_words "drink"
+    count_of_words 3
+  ]
+  edge [
+    source 24
+    target 63
+    common_words "starbuck"
+    common_words "drink"
+    common_words "order"
+    count_of_words 3
+  ]
+  edge [
+    source 24
+    target 92
+    common_words "dunkin"
+    common_words "order"
+    common_words "like"
+    count_of_words 3
+  ]
+  edge [
+    source 24
+    target 105
+    common_words "dunkin"
+    common_words "order"
+    common_words "medium"
+    count_of_words 3
+  ]
+  edge [
+    source 24
+    target 54
+    common_words "dunkin"
+    common_words "instead"
+    common_words "like"
+    count_of_words 3
+  ]
+  edge [
+    source 24
+    target 104
+    common_words "dunkin"
+    common_words "drink"
+    common_words "like"
+    count_of_words 3
+  ]
+  edge [
+    source 24
+    target 106
+    common_words "dunkin"
+    common_words "like"
+    common_words "say"
     count_of_words 3
   ]
   edge [
     source 25
     target 26
-    common_words "thru"
-    common_words "drive"
     common_words "starbuck"
+    common_words "area"
+    common_words "close"
     count_of_words 3
+  ]
+  edge [
+    source 25
+    target 27
+    common_words "starbuck"
+    common_words "run"
+    common_words "close"
+    count_of_words 3
+  ]
+  edge [
+    source 26
+    target 50
+    common_words "store"
+    common_words "starbuck"
+    common_words "close"
+    count_of_words 3
+  ]
+  edge [
+    source 26
+    target 36
+    common_words "store"
+    common_words "starbuck"
+    common_words "close"
+    count_of_words 3
+  ]
+  edge [
+    source 26
+    target 55
+    common_words "store"
+    common_words "starbuck"
+    common_words "seattl"
+    common_words "high"
+    common_words "close"
+    count_of_words 5
+  ]
+  edge [
+    source 26
+    target 56
+    common_words "store"
+    common_words "starbuck"
+    common_words "five"
+    common_words "close"
+    count_of_words 4
+  ]
+  edge [
+    source 26
+    target 27
+    common_words "store"
+    common_words "starbuck"
+    common_words "crime"
+    common_words "seattl"
+    common_words "close"
+    count_of_words 5
+  ]
+  edge [
+    source 27
+    target 44
+    common_words "locat"
+    common_words "starbuck"
+    common_words "use"
+    count_of_words 3
+  ]
+  edge [
+    source 27
+    target 35
+    common_words "store"
+    common_words "starbuck"
+    common_words "use"
+    count_of_words 3
+  ]
+  edge [
+    source 27
+    target 50
+    common_words "store"
+    common_words "starbuck"
+    common_words "drug"
+    common_words "cafe"
+    common_words "use"
+    common_words "u"
+    common_words "close"
+    count_of_words 7
+  ]
+  edge [
+    source 27
+    target 36
+    common_words "store"
+    common_words "starbuck"
+    common_words "drug"
+    common_words "cafe"
+    common_words "use"
+    common_words "u"
+    common_words "close"
+    count_of_words 7
+  ]
+  edge [
+    source 27
+    target 45
+    common_words "starbuck"
+    common_words "locat"
+    common_words "use"
+    count_of_words 3
+  ]
+  edge [
+    source 27
+    target 67
+    common_words "store"
+    common_words "portland"
+    common_words "close"
+    count_of_words 3
+  ]
+  edge [
+    source 27
+    target 55
+    common_words "store"
+    common_words "starbuck"
+    common_words "angel"
+    common_words "portland"
+    common_words "seattl"
+    common_words "lo"
+    common_words "close"
+    count_of_words 7
+  ]
+  edge [
+    source 27
+    target 74
+    common_words "starbuck"
+    common_words "seattl"
+    common_words "run"
+    count_of_words 3
+  ]
+  edge [
+    source 27
+    target 56
+    common_words "store"
+    common_words "starbuck"
+    common_words "concern"
+    common_words "close"
+    count_of_words 4
   ]
   edge [
     source 28
     target 29
-    common_words "coffe"
-    common_words "like"
     common_words "starbuck"
-    count_of_words 3
+    common_words "dont"
+    common_words "half"
+    common_words "forget"
+    common_words "tuesday"
+    count_of_words 5
   ]
   edge [
     source 28
     target 30
-    common_words "coffe"
-    common_words "much"
     common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 28
-    target 31
-    common_words "coffe"
-    common_words "like"
-    common_words "tast"
-    common_words "starbuck"
-    count_of_words 4
-  ]
-  edge [
-    source 28
-    target 32
-    common_words "coffe"
-    common_words "starbuck"
-    common_words "dont"
-    count_of_words 3
-  ]
-  edge [
-    source 28
-    target 33
-    common_words "coffe"
-    common_words "like"
-    common_words "tast"
-    count_of_words 3
-  ]
-  edge [
-    source 29
-    target 34
-    common_words "starbuck"
-    common_words "like"
-    common_words "one"
-    count_of_words 3
-  ]
-  edge [
-    source 29
-    target 36
-    common_words "name"
-    common_words "said"
-    common_words "starbuck"
+    common_words "half"
+    common_words "tuesday"
     count_of_words 3
   ]
   edge [
     source 29
     target 38
-    common_words "name"
-    common_words "said"
     common_words "starbuck"
+    common_words "dont"
+    common_words "drink"
     count_of_words 3
   ]
   edge [
     source 29
-    target 35
-    common_words "like"
+    target 39
     common_words "starbuck"
-    common_words "one"
+    common_words "half"
+    common_words "app"
+    common_words "drink"
+    count_of_words 4
+  ]
+  edge [
+    source 29
+    target 40
+    common_words "starbuck"
+    common_words "tuesday"
+    common_words "drink"
     count_of_words 3
   ]
   edge [
     source 29
-    target 55
-    common_words "like"
-    common_words "said"
+    target 30
     common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 29
-    target 31
-    common_words "coffe"
-    common_words "like"
-    common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 29
-    target 32
-    common_words "coffe"
-    common_words "starbuck"
-    common_words "one"
+    common_words "half"
+    common_words "tuesday"
     count_of_words 3
   ]
   edge [
     source 30
-    target 41
-    common_words "love"
-    common_words "starbuck"
-    common_words "lol"
-    count_of_words 3
-  ]
-  edge [
-    source 30
-    target 31
-    common_words "love"
-    common_words "coffe"
-    common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 30
-    target 42
-    common_words "starbuck"
-    common_words "tri"
-    common_words "lol"
-    count_of_words 3
-  ]
-  edge [
-    source 30
-    target 61
-    common_words "love"
-    common_words "get"
-    common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 30
-    target 62
-    common_words "coffe"
-    common_words "get"
-    common_words "tri"
+    target 77
+    common_words "tuesday"
+    common_words "know"
+    common_words "mean"
     count_of_words 3
   ]
   edge [
     source 31
-    target 33
-    common_words "coffe"
-    common_words "burnt"
-    common_words "like"
-    common_words "tast"
+    target 32
+    common_words "starbuck"
+    common_words "pup"
+    common_words "cup"
+    count_of_words 3
+  ]
+  edge [
+    source 32
+    target 80
+    common_words "starbuck"
+    common_words "milk"
+    common_words "charg"
+    common_words "oat"
     count_of_words 4
   ]
   edge [
-    source 32
-    target 57
-    common_words "coffe"
-    common_words "shop"
+    source 33
+    target 34
+    common_words "store"
     common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 32
-    target 72
-    common_words "ask"
-    common_words "dunkin"
-    common_words "dont"
-    count_of_words 3
-  ]
-  edge [
-    source 32
-    target 87
-    common_words "coffe"
-    common_words "local"
-    common_words "dunkin"
-    count_of_words 3
-  ]
-  edge [
-    source 32
-    target 91
-    common_words "dunkin"
-    common_words "dont"
-    common_words "one"
-    count_of_words 3
-  ]
-  edge [
-    source 32
-    target 56
-    common_words "dunkin"
-    common_words "starbuck"
-    common_words "one"
-    count_of_words 3
-  ]
-  edge [
-    source 32
-    target 94
-    common_words "coffe"
-    common_words "dunkin"
-    common_words "dont"
-    count_of_words 3
-  ]
-  edge [
-    source 32
-    target 92
-    common_words "coffe"
-    common_words "dunkin"
-    common_words "one"
+    common_words "look"
     count_of_words 3
   ]
   edge [
     source 33
-    target 87
-    common_words "coffe"
-    common_words "donut"
-    common_words "dunkin"
-    count_of_words 3
-  ]
-  edge [
-    source 33
-    target 80
-    common_words "gross"
-    common_words "dunkin"
-    common_words "donut"
-    count_of_words 3
-  ]
-  edge [
-    source 33
-    target 97
-    common_words "donut"
-    common_words "like"
-    common_words "dunkin"
-    count_of_words 3
-  ]
-  edge [
-    source 33
-    target 89
-    common_words "coffe"
-    common_words "donut"
-    common_words "dunkin"
-    count_of_words 3
-  ]
-  edge [
-    source 33
-    target 62
-    common_words "coffe"
-    common_words "even"
-    common_words "dunkin"
-    count_of_words 3
-  ]
-  edge [
-    source 34
     target 35
+    common_words "store"
     common_words "starbuck"
-    common_words "like"
-    common_words "one"
+    common_words "barista"
+    count_of_words 3
+  ]
+  edge [
+    source 33
+    target 36
+    common_words "store"
+    common_words "starbuck"
+    common_words "via"
+    count_of_words 3
+  ]
+  edge [
+    source 33
+    target 37
+    common_words "starbuck"
+    common_words "job"
+    common_words "amp"
     count_of_words 3
   ]
   edge [
     source 35
+    target 50
+    common_words "store"
+    common_words "starbuck"
+    common_words "use"
+    count_of_words 3
+  ]
+  edge [
+    source 35
+    target 36
+    common_words "store"
+    common_words "starbuck"
+    common_words "use"
+    count_of_words 3
+  ]
+  edge [
+    source 36
+    target 50
+    common_words "store"
+    common_words "starbuck"
+    common_words "incid"
+    common_words "relat"
+    common_words "disrupt"
+    common_words "worker"
+    common_words "drug"
+    common_words "cafe"
+    common_words "use"
+    common_words "report"
+    common_words "u"
+    common_words "close"
+    count_of_words 12
+  ]
+  edge [
+    source 36
+    target 55
+    common_words "store"
+    common_words "starbuck"
+    common_words "incid"
+    common_words "close"
+    count_of_words 4
+  ]
+  edge [
+    source 36
     target 56
+    common_words "store"
     common_words "starbuck"
-    common_words "one"
-    common_words "probabl"
-    count_of_words 3
-  ]
-  edge [
-    source 36
-    target 37
-    common_words "said"
-    common_words "call"
-    common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 36
-    target 38
-    common_words "name"
-    common_words "said"
-    common_words "starbuck"
+    common_words "close"
     count_of_words 3
   ]
   edge [
     source 37
-    target 39
-    common_words "way"
-    common_words "posit"
+    target 52
     common_words "starbuck"
+    common_words "amp"
+    common_words "im"
     count_of_words 3
   ]
   edge [
-    source 38
-    target 42
-    common_words "name"
-    common_words "worker"
+    source 37
+    target 53
     common_words "starbuck"
+    common_words "card"
+    common_words "im"
+    common_words "gift"
+    count_of_words 4
+  ]
+  edge [
+    source 37
+    target 65
+    common_words "starbuck"
+    common_words "job"
+    common_words "stop"
     count_of_words 3
   ]
   edge [
-    source 38
-    target 43
-    common_words "said"
-    common_words "peopl"
-    common_words "live"
+    source 37
+    target 46
+    common_words "starbuck"
+    common_words "card"
+    common_words "gift"
+    count_of_words 3
+  ]
+  edge [
+    source 37
+    target 76
+    common_words "shit"
+    common_words "gave"
+    common_words "amp"
+    count_of_words 3
+  ]
+  edge [
+    source 39
+    target 59
+    common_words "starbuck"
+    common_words "coupon"
+    common_words "app"
+    count_of_words 3
+  ]
+  edge [
+    source 39
+    target 40
+    common_words "starbuck"
+    common_words "cold"
+    common_words "drink"
+    count_of_words 3
+  ]
+  edge [
+    source 40
+    target 41
+    common_words "starbuck"
+    common_words "drink"
+    common_words "today"
     count_of_words 3
   ]
   edge [
     source 40
     target 78
-    common_words "dunkin"
-    common_words "vend"
-    common_words "machin"
-    count_of_words 3
-  ]
-  edge [
-    source 40
-    target 91
-    common_words "dunkin"
-    common_words "get"
-    common_words "make"
-    count_of_words 3
-  ]
-  edge [
-    source 40
-    target 80
-    common_words "feel"
-    common_words "dunkin"
-    common_words "make"
-    common_words "regular"
+    common_words "remind"
+    common_words "drink"
+    common_words "everi"
+    common_words "tuesday"
     count_of_words 4
   ]
   edge [
-    source 40
-    target 92
-    common_words "dunkin"
-    common_words "make"
-    common_words "ice"
-    count_of_words 3
-  ]
-  edge [
-    source 40
-    target 61
-    common_words "feel"
-    common_words "dunkin"
-    common_words "get"
-    count_of_words 3
-  ]
-  edge [
-    source 40
-    target 110
-    common_words "dunkin"
-    common_words "get"
-    common_words "day"
-    count_of_words 3
-  ]
-  edge [
-    source 40
-    target 62
-    common_words "two"
-    common_words "dunkin"
-    common_words "im"
-    common_words "get"
-    common_words "day"
-    count_of_words 5
-  ]
-  edge [
     source 42
-    target 63
-    common_words "saw"
+    target 43
     common_words "starbuck"
-    common_words "told"
+    common_words "work"
+    common_words "tweet"
+    count_of_words 3
+  ]
+  edge [
+    source 43
+    target 49
+    common_words "starbuck"
+    common_words "liter"
+    common_words "tweet"
+    count_of_words 3
+  ]
+  edge [
+    source 43
+    target 72
+    common_words "starbuck"
+    common_words "thank"
+    common_words "save"
     count_of_words 3
   ]
   edge [
     source 44
     target 45
-    common_words "make"
-    common_words "dunkin"
+    common_words "locat"
+    common_words "bathroom"
     common_words "starbuck"
-    count_of_words 3
+    common_words "peopl"
+    common_words "use"
+    count_of_words 5
   ]
   edge [
     source 44
     target 46
-    common_words "bc"
-    common_words "make"
-    common_words "shit"
-    common_words "dunkin"
     common_words "starbuck"
-    count_of_words 5
+    common_words "allow"
+    common_words "use"
+    count_of_words 3
+  ]
+  edge [
+    source 44
+    target 47
+    common_words "starbuck"
+    common_words "one"
+    common_words "use"
+    count_of_words 3
+  ]
+  edge [
+    source 44
+    target 48
+    common_words "starbuck"
+    common_words "leav"
+    common_words "one"
+    count_of_words 3
+  ]
+  edge [
+    source 45
+    target 63
+    common_words "starbuck"
+    common_words "peopl"
+    common_words "order"
+    count_of_words 3
   ]
   edge [
     source 45
     target 46
-    common_words "make"
-    common_words "dunkin"
     common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 47
-    target 60
-    common_words "guy"
-    common_words "get"
-    common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 47
-    target 66
-    common_words "guy"
-    common_words "good"
-    common_words "get"
-    count_of_words 3
-  ]
-  edge [
-    source 50
-    target 51
-    common_words "militia"
-    common_words "regul"
-    common_words "well"
-    common_words "starbuck"
-    count_of_words 4
-  ]
-  edge [
-    source 50
-    target 52
-    common_words "know"
-    common_words "joe"
-    common_words "isnt"
-    count_of_words 3
-  ]
-  edge [
-    source 52
-    target 91
-    common_words "give"
-    common_words "dunkin"
-    common_words "taco"
-    common_words "dont"
-    count_of_words 4
-  ]
-  edge [
-    source 52
-    target 102
-    common_words "donut"
-    common_words "dunkin"
-    common_words "call"
-    count_of_words 3
-  ]
-  edge [
-    source 52
-    target 88
-    common_words "dunkin"
-    common_words "taco"
-    common_words "donut"
-    count_of_words 3
-  ]
-  edge [
-    source 52
-    target 97
-    common_words "dunkin"
-    common_words "taco"
-    common_words "donut"
-    common_words "joe"
-    count_of_words 4
-  ]
-  edge [
-    source 52
-    target 98
-    common_words "east"
-    common_words "dunkin"
-    common_words "donut"
-    common_words "coaster"
-    count_of_words 4
-  ]
-  edge [
-    source 52
-    target 112
-    common_words "dunkin"
-    common_words "call"
-    common_words "walk"
-    count_of_words 3
-  ]
-  edge [
-    source 52
-    target 69
-    common_words "dunkin"
-    common_words "donut"
-    common_words "know"
-    count_of_words 3
-  ]
-  edge [
-    source 52
-    target 74
-    common_words "dunkin"
-    common_words "donut"
-    common_words "know"
-    count_of_words 3
-  ]
-  edge [
-    source 56
-    target 93
-    common_words "never"
-    common_words "dunkin"
-    common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 56
-    target 77
-    common_words "dunkin"
-    common_words "starbuck"
-    common_words "ive"
-    count_of_words 3
-  ]
-  edge [
-    source 61
-    target 87
-    common_words "donut"
-    common_words "dunkin"
-    common_words "goe"
-    count_of_words 3
-  ]
-  edge [
-    source 61
-    target 101
-    common_words "donut"
-    common_words "get"
-    common_words "dunkin"
-    count_of_words 3
-  ]
-  edge [
-    source 61
-    target 66
-    common_words "dunkin"
-    common_words "donut"
-    common_words "get"
-    count_of_words 3
-  ]
-  edge [
-    source 61
-    target 80
-    common_words "feel"
-    common_words "dunkin"
-    common_words "donut"
-    count_of_words 3
-  ]
-  edge [
-    source 61
-    target 81
-    common_words "donut"
-    common_words "dunkin"
-    common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 61
-    target 111
-    common_words "h"
-    common_words "dunkin"
-    common_words "starbuck"
-    count_of_words 3
-  ]
-  edge [
-    source 61
-    target 74
-    common_words "shoot"
-    common_words "dunkin"
-    common_words "donut"
-    count_of_words 3
-  ]
-  edge [
-    source 62
-    target 103
-    common_words "coffe"
-    common_words "dunkin"
-    common_words "tri"
-    count_of_words 3
-  ]
-  edge [
-    source 62
-    target 94
-    common_words "coffe"
-    common_words "get"
-    common_words "dunkin"
-    count_of_words 3
-  ]
-  edge [
-    source 62
-    target 107
-    common_words "today"
-    common_words "get"
-    common_words "dunkin"
-    common_words "tri"
-    count_of_words 4
-  ]
-  edge [
-    source 62
-    target 110
-    common_words "get"
-    common_words "dunkin"
-    common_words "day"
-    count_of_words 3
-  ]
-  edge [
-    source 62
-    target 68
-    common_words "today"
-    common_words "get"
-    common_words "dunkin"
-    count_of_words 3
-  ]
-  edge [
-    source 66
-    target 91
-    common_words "dunkin"
-    common_words "get"
-    common_words "good"
-    count_of_words 3
-  ]
-  edge [
-    source 66
-    target 101
-    common_words "donut"
-    common_words "get"
-    common_words "dunkin"
-    count_of_words 3
-  ]
-  edge [
-    source 66
-    target 80
-    common_words "dunkin"
-    common_words "donut"
-    common_words "good"
-    count_of_words 3
-  ]
-  edge [
-    source 66
-    target 97
-    common_words "bad"
-    common_words "dunkin"
-    common_words "donut"
-    count_of_words 3
-  ]
-  edge [
-    source 66
-    target 107
-    common_words "dunkin"
-    common_words "get"
-    common_words "see"
-    count_of_words 3
-  ]
-  edge [
-    source 66
-    target 89
-    common_words "dunkin"
-    common_words "donut"
-    common_words "good"
-    count_of_words 3
-  ]
-  edge [
-    source 66
-    target 69
-    common_words "bad"
-    common_words "dunkin"
-    common_words "donut"
-    count_of_words 3
-  ]
-  edge [
-    source 66
-    target 104
-    common_words "dunkin"
-    common_words "donut"
-    common_words "see"
-    count_of_words 3
-  ]
-  edge [
-    source 66
-    target 74
-    common_words "dunkin"
-    common_words "donut"
-    common_words "guy"
-    count_of_words 3
-  ]
-  edge [
-    source 68
-    target 91
-    common_words "dunkin"
-    common_words "get"
-    common_words "breakfast"
-    count_of_words 3
-  ]
-  edge [
-    source 68
-    target 109
-    common_words "sandwich"
-    common_words "breakfast"
-    common_words "dunkin"
-    count_of_words 3
-  ]
-  edge [
-    source 68
-    target 107
-    common_words "today"
-    common_words "get"
-    common_words "dunkin"
-    count_of_words 3
-  ]
-  edge [
-    source 69
-    target 97
-    common_words "bad"
-    common_words "say"
-    common_words "dunkin"
-    common_words "donut"
-    count_of_words 4
-  ]
-  edge [
-    source 69
-    target 71
-    common_words "donut"
-    common_words "dunkin"
+    common_words "use"
     common_words "free"
     count_of_words 3
   ]
   edge [
-    source 69
-    target 74
-    common_words "donut"
-    common_words "know"
-    common_words "dunkin"
+    source 46
+    target 53
+    common_words "starbuck"
+    common_words "card"
+    common_words "gift"
     count_of_words 3
   ]
   edge [
-    source 70
-    target 71
-    common_words "donut"
-    common_words "dunkin"
-    common_words "got"
+    source 46
+    target 79
+    common_words "card"
+    common_words "get"
+    common_words "gift"
     count_of_words 3
   ]
   edge [
-    source 73
-    target 74
-    common_words "guy"
-    common_words "dunkin"
+    source 47
+    target 69
+    common_words "starbuck"
+    common_words "target"
+    common_words "one"
+    count_of_words 3
+  ]
+  edge [
+    source 48
+    target 69
+    common_words "starbuck"
+    common_words "one"
     common_words "go"
     count_of_words 3
   ]
   edge [
-    source 74
-    target 96
-    common_words "donut"
+    source 48
+    target 112
     common_words "dunkin"
+    common_words "dont"
     common_words "go"
     count_of_words 3
   ]
   edge [
-    source 74
-    target 97
+    source 48
+    target 118
+    common_words "starbuck"
+    common_words "dont"
     common_words "dunkin"
-    common_words "donut"
+    count_of_words 3
+  ]
+  edge [
+    source 48
+    target 114
+    common_words "one"
+    common_words "alway"
+    common_words "littl"
+    common_words "dunkin"
     common_words "go"
-    count_of_words 3
+    count_of_words 5
   ]
   edge [
-    source 74
-    target 98
-    common_words "dunkin"
-    common_words "donut"
-    common_words "go"
-    count_of_words 3
-  ]
-  edge [
-    source 75
-    target 76
-    common_words "donut"
-    common_words "gt"
-    common_words "dunkin"
-    count_of_words 3
-  ]
-  edge [
-    source 75
-    target 77
-    common_words "gt"
-    common_words "dunkin"
-    common_words "realiz"
-    count_of_words 3
-  ]
-  edge [
-    source 79
-    target 80
-    common_words "donut"
-    common_words "make"
-    common_words "dunkin"
-    count_of_words 3
-  ]
-  edge [
-    source 79
-    target 81
-    common_words "donut"
-    common_words "dunkin"
-    common_words "better"
-    count_of_words 3
-  ]
-  edge [
-    source 80
-    target 91
-    common_words "dunkin"
-    common_words "make"
-    common_words "good"
-    count_of_words 3
-  ]
-  edge [
-    source 80
-    target 108
-    common_words "dunkin"
-    common_words "donut"
-    common_words "eat"
-    count_of_words 3
-  ]
-  edge [
-    source 80
-    target 109
-    common_words "sandwich"
-    common_words "dunkin"
-    common_words "donut"
-    common_words "bacon"
+    source 50
+    target 55
+    common_words "store"
+    common_words "starbuck"
+    common_words "incid"
+    common_words "close"
     count_of_words 4
   ]
   edge [
-    source 80
-    target 89
+    source 50
+    target 56
+    common_words "store"
+    common_words "starbuck"
+    common_words "close"
+    count_of_words 3
+  ]
+  edge [
+    source 52
+    target 53
+    common_words "starbuck"
+    common_words "pretti"
+    common_words "im"
+    count_of_words 3
+  ]
+  edge [
+    source 52
+    target 54
+    common_words "instead"
+    common_words "like"
+    common_words "lol"
+    count_of_words 3
+  ]
+  edge [
+    source 54
+    target 82
+    common_words "gave"
     common_words "dunkin"
-    common_words "donut"
-    common_words "good"
+    common_words "shot"
+    common_words "like"
+    count_of_words 4
+  ]
+  edge [
+    source 54
+    target 96
+    common_words "dunkin"
+    common_words "like"
+    common_words "full"
+    count_of_words 3
+  ]
+  edge [
+    source 54
+    target 76
+    common_words "gave"
+    common_words "bag"
+    common_words "like"
+    common_words "ate"
+    count_of_words 4
+  ]
+  edge [
+    source 54
+    target 84
+    common_words "gave"
+    common_words "dunkin"
+    common_words "like"
+    common_words "cal"
+    count_of_words 4
+  ]
+  edge [
+    source 55
+    target 67
+    common_words "store"
+    common_words "portland"
+    common_words "close"
+    count_of_words 3
+  ]
+  edge [
+    source 55
+    target 74
+    common_words "starbuck"
+    common_words "seattl"
+    common_words "citi"
+    count_of_words 3
+  ]
+  edge [
+    source 55
+    target 56
+    common_words "store"
+    common_words "starbuck"
+    common_words "close"
+    count_of_words 3
+  ]
+  edge [
+    source 60
+    target 61
+    common_words "chai"
+    common_words "masala"
+    common_words "coffe"
+    common_words "menu"
+    common_words "filter"
+    count_of_words 5
+  ]
+  edge [
+    source 60
+    target 62
+    common_words "chai"
+    common_words "tea"
+    common_words "coffe"
+    count_of_words 3
+  ]
+  edge [
+    source 62
+    target 90
+    common_words "thank"
+    common_words "dunkin"
+    common_words "drink"
+    count_of_words 3
+  ]
+  edge [
+    source 62
+    target 104
+    common_words "dunkin"
+    common_words "drink"
+    common_words "sip"
+    count_of_words 3
+  ]
+  edge [
+    source 64
+    target 65
+    common_words "want"
+    common_words "starbuck"
+    common_words "dem"
+    count_of_words 3
+  ]
+  edge [
+    source 64
+    target 66
+    common_words "want"
+    common_words "starbuck"
+    common_words "thing"
+    count_of_words 3
+  ]
+  edge [
+    source 66
+    target 68
+    common_words "want"
+    common_words "starbuck"
+    common_words "go"
+    count_of_words 3
+  ]
+  edge [
+    source 66
+    target 69
+    common_words "want"
+    common_words "starbuck"
+    common_words "go"
+    count_of_words 3
+  ]
+  edge [
+    source 68
+    target 69
+    common_words "want"
+    common_words "starbuck"
+    common_words "go"
+    count_of_words 3
+  ]
+  edge [
+    source 71
+    target 102
+    common_words "dunkin"
+    common_words "im"
+    common_words "need"
+    count_of_words 3
+  ]
+  edge [
+    source 74
+    target 79
+    common_words "get"
+    common_words "run"
+    common_words "done"
+    count_of_words 3
+  ]
+  edge [
+    source 79
+    target 99
+    common_words "work"
+    common_words "dunkin"
+    common_words "get"
     count_of_words 3
   ]
   edge [
     source 81
-    target 111
+    target 83
+    common_words "day"
     common_words "dunkin"
-    common_words "tell"
-    common_words "starbuck"
+    common_words "singl"
+    common_words "everi"
+    count_of_words 4
+  ]
+  edge [
+    source 81
+    target 99
+    common_words "day"
+    common_words "dunkin"
+    common_words "get"
     count_of_words 3
   ]
   edge [
     source 82
     target 83
+    common_words "stop"
     common_words "dunkin"
-    common_words "cold"
-    common_words "brew"
+    common_words "like"
     count_of_words 3
   ]
   edge [
     source 82
     target 84
+    common_words "gave"
     common_words "dunkin"
-    common_words "cold"
-    common_words "brew"
-    count_of_words 3
-  ]
-  edge [
-    source 82
-    target 85
-    common_words "bring"
-    common_words "dunkin"
-    common_words "cold"
-    common_words "back"
-    common_words "brew"
-    count_of_words 5
-  ]
-  edge [
-    source 82
-    target 86
-    common_words "dunkin"
-    common_words "cold"
-    common_words "brew"
+    common_words "like"
     count_of_words 3
   ]
   edge [
     source 83
-    target 84
+    target 92
     common_words "dunkin"
-    common_words "cold"
-    common_words "brew"
+    common_words "donut"
+    common_words "like"
     count_of_words 3
   ]
   edge [
     source 83
-    target 85
+    target 112
+    common_words "cant"
     common_words "dunkin"
-    common_words "cold"
-    common_words "im"
-    common_words "brew"
+    common_words "donut"
+    common_words "go"
     count_of_words 4
   ]
   edge [
     source 83
-    target 86
-    common_words "sugar"
+    target 107
     common_words "dunkin"
-    common_words "brown"
-    common_words "cold"
-    common_words "brew"
-    count_of_words 5
-  ]
-  edge [
-    source 84
-    target 85
-    common_words "dunkin"
-    common_words "cold"
-    common_words "brew"
+    common_words "donut"
+    common_words "like"
     count_of_words 3
   ]
   edge [
-    source 84
-    target 112
-    common_words "week"
+    source 83
+    target 106
     common_words "dunkin"
-    common_words "last"
+    common_words "donut"
+    common_words "like"
     count_of_words 3
   ]
   edge [
-    source 84
-    target 86
+    source 83
+    target 108
     common_words "dunkin"
-    common_words "cold"
-    common_words "brew"
+    common_words "donut"
+    common_words "like"
     count_of_words 3
   ]
   edge [
-    source 85
+    source 83
+    target 109
+    common_words "dunkin"
+    common_words "donut"
+    common_words "like"
+    count_of_words 3
+  ]
+  edge [
+    source 83
     target 98
     common_words "dunkin"
     common_words "donut"
-    common_words "back"
+    common_words "like"
+    count_of_words 3
+  ]
+  edge [
+    source 84
+    target 86
+    common_words "dunkin"
+    common_words "coffe"
+    common_words "small"
     count_of_words 3
   ]
   edge [
     source 85
     target 86
     common_words "dunkin"
-    common_words "cold"
-    common_words "brew"
+    common_words "coffe"
+    common_words "ice"
+    count_of_words 3
+  ]
+  edge [
+    source 85
+    target 87
+    common_words "best"
+    common_words "dunkin"
+    common_words "coffe"
+    common_words "ice"
+    count_of_words 4
+  ]
+  edge [
+    source 85
+    target 88
+    common_words "pecan"
+    common_words "butter"
+    common_words "dunkin"
+    common_words "coffe"
+    common_words "ice"
+    count_of_words 5
+  ]
+  edge [
+    source 85
+    target 89
+    common_words "dunkin"
+    common_words "coffe"
+    common_words "ice"
+    count_of_words 3
+  ]
+  edge [
+    source 86
+    target 87
+    common_words "dunkin"
+    common_words "coffe"
+    common_words "donut"
+    common_words "ice"
+    count_of_words 4
+  ]
+  edge [
+    source 86
+    target 88
+    common_words "dunkin"
+    common_words "coffe"
+    common_words "ice"
+    count_of_words 3
+  ]
+  edge [
+    source 86
+    target 89
+    common_words "dunkin"
+    common_words "coffe"
+    common_words "ice"
     count_of_words 3
   ]
   edge [
     source 87
     target 88
-    common_words "donut"
     common_words "dunkin"
-    common_words "drive"
+    common_words "coffe"
+    common_words "ice"
     count_of_words 3
   ]
   edge [
     source 87
     target 89
+    common_words "dunkin"
     common_words "coffe"
-    common_words "donut"
-    common_words "dunkin"
-    count_of_words 3
-  ]
-  edge [
-    source 88
-    target 97
-    common_words "dunkin"
-    common_words "taco"
-    common_words "donut"
-    count_of_words 3
-  ]
-  edge [
-    source 89
-    target 109
-    common_words "donut"
-    common_words "dunkin"
-    common_words "delici"
-    count_of_words 3
-  ]
-  edge [
-    source 89
-    target 115
-    common_words "donut"
-    common_words "dunkin"
-    common_words "either"
-    common_words "there"
-    count_of_words 4
-  ]
-  edge [
-    source 90
-    target 91
-    common_words "make"
-    common_words "dunkin"
-    common_words "one"
-    count_of_words 3
-  ]
-  edge [
-    source 90
-    target 92
-    common_words "make"
-    common_words "dunkin"
-    common_words "one"
-    count_of_words 3
-  ]
-  edge [
-    source 91
-    target 94
-    common_words "dunkin"
-    common_words "get"
-    common_words "dont"
-    count_of_words 3
-  ]
-  edge [
-    source 91
-    target 95
-    common_words "dunkin"
-    common_words "good"
-    common_words "one"
-    count_of_words 3
-  ]
-  edge [
-    source 91
-    target 92
-    common_words "dunkin"
-    common_words "make"
-    common_words "one"
-    count_of_words 3
-  ]
-  edge [
-    source 92
-    target 103
-    common_words "coffe"
-    common_words "dunkin"
     common_words "ice"
     count_of_words 3
   ]
   edge [
-    source 92
-    target 94
-    common_words "coffe"
+    source 88
+    target 89
     common_words "dunkin"
-    common_words "sugar"
+    common_words "coffe"
+    common_words "ice"
+    count_of_words 3
+  ]
+  edge [
+    source 91
+    target 92
+    common_words "one"
+    common_words "dunkin"
+    common_words "donut"
+    count_of_words 3
+  ]
+  edge [
+    source 91
+    target 93
+    common_words "one"
+    common_words "dunkin"
+    common_words "donut"
+    count_of_words 3
+  ]
+  edge [
+    source 92
+    target 107
+    common_words "dunkin"
+    common_words "donut"
+    common_words "like"
+    count_of_words 3
+  ]
+  edge [
+    source 92
+    target 106
+    common_words "dunkin"
+    common_words "donut"
+    common_words "like"
+    count_of_words 3
+  ]
+  edge [
+    source 92
+    target 108
+    common_words "dunkin"
+    common_words "donut"
+    common_words "like"
+    count_of_words 3
+  ]
+  edge [
+    source 92
+    target 109
+    common_words "dunkin"
+    common_words "donut"
+    common_words "like"
+    count_of_words 3
+  ]
+  edge [
+    source 92
+    target 98
+    common_words "dunkin"
+    common_words "donut"
+    common_words "like"
+    count_of_words 3
+  ]
+  edge [
+    source 92
+    target 93
+    common_words "one"
+    common_words "dunkin"
+    common_words "donut"
+    common_words "order"
+    count_of_words 4
+  ]
+  edge [
+    source 93
+    target 125
+    common_words "hous"
+    common_words "donut"
+    common_words "dunkin"
     count_of_words 3
   ]
   edge [
     source 96
     target 97
-    common_words "unless"
-    common_words "slight"
-    common_words "donut"
-    common_words "indian"
     common_words "dunkin"
-    common_words "biden"
-    common_words "go"
-    common_words "accent"
-    count_of_words 8
+    common_words "compani"
+    common_words "year"
+    count_of_words 3
   ]
   edge [
     source 96
     target 98
-    common_words "donut"
+    common_words "read"
     common_words "dunkin"
-    common_words "go"
+    common_words "like"
     count_of_words 3
   ]
   edge [
     source 97
-    target 98
+    target 115
+    common_words "tri"
     common_words "dunkin"
     common_words "donut"
-    common_words "go"
     count_of_words 3
   ]
   edge [
-    source 99
-    target 100
-    common_words "run"
+    source 97
+    target 116
+    common_words "donut"
     common_words "dunkin"
-    common_words "america"
+    common_words "year"
     count_of_words 3
   ]
   edge [
-    source 105
+    source 98
+    target 107
+    common_words "donut"
+    common_words "dunkin"
+    common_words "like"
+    count_of_words 3
+  ]
+  edge [
+    source 98
     target 106
-    common_words "duck"
+    common_words "dunkin"
+    common_words "donut"
+    common_words "like"
+    count_of_words 3
+  ]
+  edge [
+    source 98
+    target 108
     common_words "donut"
     common_words "dunkin"
+    common_words "like"
+    count_of_words 3
+  ]
+  edge [
+    source 98
+    target 109
+    common_words "donut"
+    common_words "dunkin"
+    common_words "like"
+    count_of_words 3
+  ]
+  edge [
+    source 100
+    target 101
+    common_words "day"
+    common_words "dunkin"
+    common_words "spent"
+    count_of_words 3
+  ]
+  edge [
+    source 104
+    target 107
+    common_words "buy"
+    common_words "dunkin"
+    common_words "like"
+    count_of_words 3
+  ]
+  edge [
+    source 106
+    target 107
+    common_words "donut"
+    common_words "dunkin"
+    common_words "like"
+    count_of_words 3
+  ]
+  edge [
+    source 106
+    target 108
+    common_words "dunkin"
+    common_words "donut"
+    common_words "like"
+    count_of_words 3
+  ]
+  edge [
+    source 106
+    target 109
+    common_words "dunkin"
+    common_words "donut"
+    common_words "like"
+    count_of_words 3
+  ]
+  edge [
+    source 107
+    target 116
+    common_words "donut"
+    common_words "dunkin"
+    common_words "im"
     count_of_words 3
   ]
   edge [
     source 107
     target 108
-    common_words "today"
+    common_words "donut"
     common_words "dunkin"
-    common_words "eat"
+    common_words "like"
     count_of_words 3
   ]
   edge [
-    source 113
-    target 114
-    common_words "love"
+    source 107
+    target 109
+    common_words "donut"
     common_words "dunkin"
-    common_words "still"
+    common_words "like"
+    count_of_words 3
+  ]
+  edge [
+    source 108
+    target 123
+    common_words "dunkin"
+    common_words "like"
+    common_words "went"
+    count_of_words 3
+  ]
+  edge [
+    source 108
+    target 124
+    common_words "fuck"
+    common_words "dunkin"
+    common_words "donut"
+    count_of_words 3
+  ]
+  edge [
+    source 108
+    target 109
+    common_words "donut"
+    common_words "dunkin"
+    common_words "like"
+    common_words "look"
+    count_of_words 4
+  ]
+  edge [
+    source 110
+    target 111
+    common_words "would"
+    common_words "donut"
+    common_words "dunkin"
+    count_of_words 3
+  ]
+  edge [
+    source 111
+    target 117
+    common_words "would"
+    common_words "dunkin"
+    common_words "much"
+    count_of_words 3
+  ]
+  edge [
+    source 112
+    target 113
+    common_words "dunkin"
+    common_words "dont"
+    common_words "donut"
+    count_of_words 3
+  ]
+  edge [
+    source 112
+    target 114
+    common_words "dunkin"
+    common_words "go"
+    common_words "kid"
+    count_of_words 3
+  ]
+  edge [
+    source 119
+    target 120
+    common_words "resid"
+    common_words "dunkin"
+    common_words "donut"
+    count_of_words 3
+  ]
+  edge [
+    source 121
+    target 122
+    common_words "congratul"
+    common_words "continu"
+    common_words "dunkin"
     count_of_words 3
   ]
 ]
