@@ -1,0 +1,1965 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\hypersetup{
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=blue,          % color of internal links
+    citecolor=blue,        % color of links to bibliography
+    filecolor=blue,      % color of file links
+    urlcolor=blue,           % color of external links
+    breaklinks=true
+}
+
+\usepackage{booktabs}
+\usepackage{longtable}
+%\usepackage{breakurl}
+%\setlength{\bibsep}{6pt plus 0.2ex}
+\setlength{\bibsep}{2pt plus 0.05ex}
+\usepackage{breakurl}
+
+\usepackage{pdflscape}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "cmr" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_title "Use Lyx for typesetting: A template for empirical research projects"
+\pdf_author "First Author and Second Author"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\paragraph_spacing onehalf
+A Data Driven Network Analysis of Coffee Consumer Brand Identities & Sentiments
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+We are grateful to Tilburg Science Hub for providing this template.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+Anam Khan, Haley Roberts, Nuoya Wu
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Anam Khan: Georgetown University; ak1963@georgetown.edu: 
+\begin_inset CommandInset href
+LatexCommand href
+name "ak1963@georgetown.edu"
+target "ak1963@georgetown.edu"
+type "mailto:"
+literal "false"
+
+\end_inset
+
+.
+ Haley Roberts: Georgetown University; hne7@georgetown.edu: 
+\begin_inset CommandInset href
+LatexCommand href
+name "hne7@georgetown.edu"
+target "hne7@georgetown.edu"
+type "mailto:"
+literal "false"
+
+\end_inset
+
+.
+ Nuoya Wu: Georgetown University; nw388@georgetown.edu: 
+\begin_inset CommandInset href
+LatexCommand href
+name "nw388@georgetown.edu"
+target "nw388@georgetown.edu"
+type "mailto:"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Date
+June 2022
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+\paragraph_spacing other 0.9
+\noindent
+Coffee is one of the most-consumed products worldwide and is provided by
+ both well-known large companies and small boutique stores.
+ Of the many popular beverages on the market, coffee appears unique in the
+ sense that people often find identity and feel strong loyalty toward their
+ coffee brand of choice, claiming to be a “small coffee shop person”, a
+ “Starbucks person”, an “artisanal coffee person”, etc.
+ To understand the sentiments and overlap of coffee identities and identify
+ other key characteristics of brand loyalties, this study utilizes tweets
+ about two major coffee brands: “Starbucks” and “Dunkin Donuts”.
+ Ten thousand tweets are collected regarding each coffee brand and textually
+ broken down into significant words.
+ For each tweet, metadata is collected regarding the tweet user’s follower
+ counts, the tweet’s retweet counts, and more.
+ Then, text analysis is used to score each tweet’s sentiment (negative,
+ neutral, positive).
+ Finally, a network is created connecting tweets by their textual commonalities.
+ Network analysis is performed to understand each brand’s clientele and
+ investigate similarities and differences between the brands and their consumers
+’ sentiments and attributes.
+ The results provide insights into these brands’ consumers and a template
+ for similar analyses of other brands.
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+\paragraph_spacing other 0.9
+\noindent
+
+\series bold
+Key words:
+\series default
+ Coffee, Consumer, Brand Identity, Brand Loyalty, Network, Twitter, Culture,
+ Sentiment, Text Analysis, Community Detection, Social Network.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+\paragraph_spacing other 0.9
+\noindent
+
+\series bold
+Journal-classification:
+\series default
+ Some classification codes.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Some notes.
+ These won't be shown on the PDF.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet.
+ 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+This is a footnote.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Literature Review
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Haley's Citations:
+\end_layout
+
+\begin_layout Enumerate
+
+\color red
+[fill in summary]
+\color inherit
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "watanabe2021social"
+literal "true"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\color red
+[fill in summary]
+\color inherit
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "hu2017analyzing"
+literal "true"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\color red
+[fill in summary]
+\color inherit
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "kim2014brand"
+literal "true"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+Nora's Citations:
+\end_layout
+
+\begin_layout Enumerate
+
+\color red
+[fill in summary]
+\color inherit
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "sujaritpong2021analysis"
+literal "true"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\color red
+[fill in summary]
+\color inherit
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "mostafa2013more"
+literal "true"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\color red
+[fill in summary]
+\color inherit
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "culotta2016mining"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+Anam's Citations:
+\end_layout
+
+\begin_layout Enumerate
+This article attempts to use tweets collected from twitter users belonging
+ to the digital humanities community to visualize and analyze a community.
+ This article focuses more so on the user's “popularity”.
+ Nodes are twitter users within the digital humanities community, and a
+ notable aspect about this article is that it tries to analyze a seemingly
+ “small world” community.
+ This could be useful for analysis of our coffee communities.
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "grandjean2016social"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\color red
+[fill in summary]
+\color inherit
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "tiggemann2018tweeting"
+literal "true"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\color red
+[fill in summary]
+\color inherit
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "bello2017detecting"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+You can reference to different sections in your paper, like this: See Section
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Methods-section"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Second section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Second-section"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is the second section of this paper.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Another footnote.
+\end_layout
+
+\end_inset
+
+ Nullam cursus hendrerit placerat.
+ Etiam accumsan consectetur sodales.
+ Duis justo sapien, condimentum et ultricies a, molestie a elit.
+ Cras mollis sollicitudin massa et vestibulum.
+ Mauris et porta libero, quis aliquam eros.
+ Suspendisse elit diam, mollis at fringilla quis, commodo quis quam.
+ Praesent rhoncus accumsan enim id dignissim.
+ Duis fringilla orci non feugiat pharetra.
+ Sed vestibulum quis enim ut accumsan.
+ Sed aliquam vestibulum quam lacinia dictum.
+\end_layout
+
+\begin_layout Section
+Third section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Third-section"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nulla lobortis fringilla mauris, sit amet efficitur tortor rhoncus ac.
+ Nullam et tincidunt sem.
+ Proin eu vehicula nisi.
+ Phasellus malesuada nunc dapibus erat sagittis sagittis.
+ Nunc vehicula nisl velit, nec tristique diam ullamcorper in.
+ Praesent metus odio, tincidunt id quam sit amet, euismod dapibus ligula.
+ Vestibulum vestibulum ante in sem vehicula luctus et ultrices turpis.
+ Vestibulum condimentum eu ante eu vehicula.
+ Praesent tellus magna, commodo eget gravida sed, vehicula venenatis nibh.
+ Proin id diam a tortor porttitor scelerisque vel at elit.
+ Phasellus id cursus magna.
+\end_layout
+
+\begin_layout Section
+Fourth section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Fourth-section"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+A sub-section
+\end_layout
+
+\begin_layout Standard
+Proin venenatis eleifend leo, eget gravida mi vulputate eget.
+ Vivamus vel elit rhoncus, venenatis diam nec, rhoncus purus.
+ Sed semper quis quam ac porta.
+ Cras venenatis ipsum ornare enim dignissim ullamcorper.
+ Nulla luctus libero arcu, in sollicitudin quam dapibus quis.
+ Proin quis lorem commodo, varius neque sed, fermentum arcu.
+ Aliquam quis massa id enim malesuada pharetra varius egestas leo.
+ Sed pharetra massa nunc.
+ Suspendisse tempus mauris ante, et tincidunt tortor maximus ut.
+ Vestibulum congue nisi scelerisque ligula mattis ultricies.
+ Cras a nisi ligula.
+ Nulla bibendum mi nec molestie feugiat.
+ Sed eu lacus at nulla venenatis blandit.
+ Nam consectetur lorem nec eros pretium vulputate.
+ Fusce a urna ac tortor maximus rutrum.
+\end_layout
+
+\begin_layout Subsection
+Embedded figures
+\end_layout
+
+\begin_layout Standard
+You can reference to tables and figures in your paper.
+ For instance, Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Figure 1"
+
+\end_inset
+
+ shows a node graph.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+This is a figure.
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Figure 1"
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+A note on this figure.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename input/figure1.png
+	lyxscale 45
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing other 0.69999999999999996
+
+\size footnotesize
+Notes: This is a description for the above figure.
+ Sed sed nulla non justo tempor efficitur finibus vitae erat.
+ Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+ ac turpis egestas.
+ Donec quis lacinia sapien.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Fifth section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Fifth-section"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Interdum et malesuada fames ac ante ipsum primis in faucibus.
+ In ut nunc nec urna tristique elementum.
+ Vivamus maximus tincidunt tellus sit amet feugiat.
+ Nam porta sagittis mollis.
+ Vivamus venenatis, libero eget pulvinar dignissim, elit ipsum maximus sem,
+ nec elementum lacus tortor at purus.
+ Aenean eget enim sed magna ornare faucibus.
+ Duis eu quam nec massa luctus dapibus.
+ Aenean sodales dui in lobortis gravida.
+ Cras maximus pulvinar suscipit.
+ Nulla a faucibus tortor.
+ Cras rutrum justo purus.
+ Vestibulum ac auctor ipsum, eget efficitur odio.
+ Aliquam erat volutpat.
+ Nam a rutrum risus.
+\end_layout
+
+\begin_layout Section
+Sixth section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Sixth-section"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In commodo arcu id lectus fringilla semper.
+ Duis mollis sed tortor sed aliquet.
+ Sed malesuada augue risus, vestibulum molestie purus cursus et.
+ Integer viverra felis id elit congue, at sagittis felis convallis.
+ Donec nisl libero, vehicula non nibh at, congue vehicula mauris.
+ Duis placerat turpis diam, eu cursus magna mollis ut.
+ Nam odio erat, posuere sed pulvinar sit amet, luctus vitae ante.
+ Aenean nisl ipsum, malesuada eget nulla sit amet, dignissim congue risus.
+ Nam sed ex et magna varius commodo vel a ipsum.
+\end_layout
+
+\begin_layout Subsection
+Math equations and tables
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:Math-tables"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+You can add inline equations and math symbols like this: 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\log(1+sales_{t}^{1})-\log(1+sales_{t}^{0})$
+\end_inset
+
+.
+ But you can also have bigger (and numbered) equations:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\log(1+sales_{t})=\sum_{\tau=1}^{48}\beta_{\tau}lagGrp_{\tau,t}+\alpha_{h(t)}+\varepsilon_{t},\label{eq:baseline specification}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+You may also want to add tables in your text.
+ Like Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Table 1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ You can create them directly in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+LyX
+\end_layout
+
+\end_inset
+
+, or you can import pre-formatted 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX 
+\end_layout
+
+\end_inset
+
+ ones.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+This is a title.
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Table 1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang british
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\backslash
+resizebox{
+\backslash
+textwidth}{!}{%
+\end_layout
+
+\end_inset
+
+
+\lang english
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="12" columns="5">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang british
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+toprule{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(1)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(2)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(3)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(4)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+category 1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+category 2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+category 3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+diff.
+ (3)-(2)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0171
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0137
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0178
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0041
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.0008)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.0012)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.0012)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.0017)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0125
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0122
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0140
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0018
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.0011)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.0018)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.0016)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.0024)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0062
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0065
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0096
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0030
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.0010)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.0018)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.0015)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.0023)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0003
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0012
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0009
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.0004
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.0007)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.0013)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.0012)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.0018)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+E
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0119
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0108
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0041
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0030
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.0008)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.0013)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.0017)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(0.0017)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+tabularnewline
+\backslash
+bottomrule%
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset VSpace -20bp
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "73text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing other 0.69999999999999996
+
+\size footnotesize
+Notes: This is a caption for the above table.
+ Nunc quis maximus libero.
+ Nam tincidunt turpis sem, sit amet viverra ligula consequat vel.
+ Morbi quis mauris eget metus lacinia rutrum sit amet lacinia turpis.
+ Sed neque tellus, imperdiet sed enim et, consectetur porta dolor.
+ Etiam rhoncus ex rhoncus lorem ultrices ornare.
+ Morbi nec accumsan lectus, quis egestas tellus.
+ Nunc ullamcorper ut ante at condimentum.
+ Donec et luctus augue.
+ Pellentesque vel cursus purus, vel lacinia lacus.
+ Cras consectetur justo sem, id ullamcorper augue pharetra sit amet.
+ Pellentesque egestas, augue ut rhoncus mollis, libero urna gravida erat,
+ et sollicitudin ex sem id lorem.
+ Sed magna velit, maximus non pharetra eu, feugiat at sem.
+ Suspendisse iaculis malesuada dolor.
+ Nunc sed massa non sapien placerat accumsan.
+ Ut quis purus laoreet, ullamcorper nunc eu, imperdiet odio.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Concluding remarks
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Summary-and-concluding"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Vestibulum commodo libero a pellentesque pellentesque.
+ Aliquam at sapien ante.
+ Integer congue libero sed porta facilisis.
+ In elementum neque dui, sit amet venenatis magna molestie placerat.
+ In ac ex at neque malesuada varius.
+ Proin pulvinar dictum nisl, nec elementum metus ultricies at.
+ Suspendisse suscipit id quam at euismod.
+ Ut vitae quam non eros mattis egestas sed ut metus.
+ Praesent pulvinar felis est, nec imperdiet tortor placerat a.
+ Maecenas faucibus nisi eu purus vehicula, in rutrum magna porta.
+ 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 0.9
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "literat"
+options "bibtotoc,upmplainnat"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\start_of_appendix
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\backslash
+null
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size giant
+\begin_inset VSpace 5cm
+\end_inset
+
+Online Appendix
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\noindent
+At any point, you can include LaTeX commands for advanced customizations.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{arabic}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+thefootnote}{A
+\backslash
+arabic{footnote}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+thepage}{A
+\backslash
+arabic{page}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+thetable}{A
+\backslash
+arabic{table}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+thefigure}{A
+\backslash
+arabic{figure}}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{footnote}{0} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{section}{0}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{table}{0}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{figure}{0}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Appendix
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Appendix"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+This is an external TeX table.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+An external TeX table.
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "LaTeX-table"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\lang british
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\backslash
+resizebox{1.3
+\backslash
+textheight}{!}{%
+\end_layout
+
+\begin_layout Plain Layout
+
+%}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+input{./input/external-table.tex}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\lang english
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "92col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing other 0.69999999999999996
+
+\size footnotesize
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+ Quisque nibh urna, egestas in ornare in, aliquet lobortis felis.
+ Donec vehicula tellus nec ipsum ornare dapibus.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Another figure.
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Another-figure"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename input/figure2.png
+	lyxscale 45
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing other 0.69999999999999996
+
+\size footnotesize
+Fusce eros sem, posuere et vestibulum at, tempor ac purus.
+ Quisque in efficitur lectus.
+ Etiam ligula diam, rhoncus convallis arcu at, aliquam maximus turpis.
+ Vivamus venenatis neque ligula.
+ Aenean consequat faucibus ipsum vitae fringilla.
+ Integer vitae varius lacus.
+ Maecenas id maximus quam.
+ Morbi neque augue, posuere in faucibus sed, interdum ac mi.
+ Mauris metus diam, vulputate posuere nulla id, gravida vestibulum ligula.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
