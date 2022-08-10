@@ -47,6 +47,7 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
+\float_placement H
 \paperfontsize 12
 \spacing single
 \use_hyperref true
@@ -144,7 +145,7 @@ literal "false"
 \end_inset
 
 .
- Haley Roberts: Georgetown University;hne7@georgetown.edu: 
+ Haley Roberts: Georgetown University; hne7@georgetown.edu: 
 \begin_inset CommandInset href
 LatexCommand href
 name "hne7@georgetown.edu"
@@ -193,21 +194,25 @@ Coffee is one of the most-consumed products worldwide and is provided by
  sense that people often find identity and feel strong loyalty toward their
  coffee brand of choice, claiming to be a “small coffee shop person”, a
  “Starbucks person”, an “artisanal coffee person”, etc.
- To understand the sentiments and overlap of coffee identities and identify
- other key characteristics of brand loyalties, this study utilizes tweets
- about two major coffee brands: “Starbucks” and “Dunkin Donuts”.
- Ten thousand tweets are collected regarding each coffee brand and textually
- broken down into significant words.
- For each tweet, metadata is collected regarding the tweet user’s follower
- counts, the tweet’s retweet counts, and more.
- Then, text analysis is used to score each tweet’s sentiment (negative,
- neutral, positive).
- Finally, a network is created connecting tweets by their textual commonalities.
- Network analysis is performed to understand each brand’s clientele and
- investigate similarities and differences between the brands and their consumers
-’ sentiments and attributes.
- The results provide insights into these brands’ consumers and a template
- for similar analyses of other brands.
+ To understand the sentiments toward, commonalities between, and sub-communities
+ within the coffee drinker culture, this study considers tweets about two
+ major coffee brands: Starbucks and Dunkin’.
+ Ten thousand tweets are collected regarding each brand and textually broken
+ down into significant words.
+ For each tweet, metadata is collected regarding the tweet and the user
+ who posted the tweet.
+ Using the tweet metadata, derived attributes of tweets, and sentiment scoring,
+ networks are created by connecting tweets based on their textual commonalities.
+ Network analysis is performed to investigate similarities and differences
+ between the two brands and their respective consumers’ sentiments and attribute
+s.
+ Community detection algorithms further identify sub-communities amongst
+ the two brands.
+ The results of this analysis provide insights into these brands and their
+ similarities and differences along with their sub-communities, while the
+ methodology acts as a template for similar analyses of other brands or
+ consumer products to follow.
+ 
 \begin_inset VSpace 1cm
 \end_inset
 
@@ -283,7 +288,7 @@ literal "true"
  And with the advent of third wave coffee, a higher emphasis is being placed
  on higher quality coffee.
  As marketers now try to bring this higher quality coffee to the masses,
- opinions toward tried and true establishments with often cult-like followings
+ opinions toward tried-and-true establishments with often loyal followings
  might be subject to change.
  
 \begin_inset VSpace defskip
@@ -338,8 +343,8 @@ literal "true"
 Before diving into the details of the project objective, a deep literature
  review is performed to understand the applications and background of the
  topic and what methodology could be considered.
- Furthermore, researching previous studies aid in understanding limitations
- to the study and provide motivation for why this research is important.
+ Furthermore, researching previous studies aids in understanding limitations
+ to the study and provides motivation for why this research is important.
  The literature review provides use cases for the study and a foundation
  of previous work to grow off of.
  
@@ -351,12 +356,12 @@ Before diving into the details of the project objective, a deep literature
 
 \begin_layout Standard
 One application of this study is to understand marketing directions that
- a company (namely, Starbucks or Dunkin’) could apply to better reach out
+ a company (namely, Starbucks or Dunkin’) could follow to better reach out
  to both their loyal fans and their critics.
  By targeting these two groups in unique ways, marketing efforts can be
  optimized.
  Understanding consumer perceptions of brands is an essential component
- of marketing strategy that marketing managers have long relied on to inform
+ of marketing strategy that marketing managers have long relied on to guide
  marketing strategy (
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -408,7 +413,7 @@ Social media has redefined the marketing landscape by changing how information
  products and services.
  To investigate this, a 2021 study analyzed the Twitter networks of two
  multi-brand retailers to investigate network activities and network patterns
- based on centrality and betweenness (
+ based on centrality measures (
 \begin_inset CommandInset citation
 LatexCommand citet
 key "watanabe2021social"
@@ -444,8 +449,6 @@ literal "true"
  One way to do this would be through the collection of consumer thoughts
  regarding their product and producing material targeted at certain attributes
  of groups.
- Thus, understanding this idea is critical to the ways in which this study
- could be applied.
  This project applies the findings of the aforementioned literature toward
  the analysis of sentiments regarding Starbucks and Dunkin’ and whether
  negative or positive sentiments are clustered together based on group attribute
@@ -468,8 +471,8 @@ While marketers may not be able to control the inter-communications of their
 ized how information in a networked environment is received and disseminated.
  In particular, Twitter has generated a great deal of attention for its
  ability to broadly propagate information to a large audience.
- Information diffusion, the process of how information is spread and interacted,
- has been widely studied in the field of network science.
+ Information diffusion, the process of how information is spread and interacted
+ with, has been widely studied in the field of network science.
  Information is often diffused in conjunction with a major event such as
  an earthquake or a political demonstration (
 \begin_inset CommandInset citation
@@ -564,7 +567,7 @@ literal "true"
 
 ).
  The study found that users tended to be more positive or negative when
- interacting with brands than in general on Twitter and that the sentiment
+ interacting with brands than in general on Twitter and that the sentiments
  towards brands between and within industries varied greatly (
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -598,7 +601,7 @@ literal "true"
  The results of this study suggest that evaluating sentiments about products
  on Twitter produce valuable insights and it is important to compare brands
  within the same industry.
- Again, this solidifies the direction of this research project’s ideation.
+ Again, this solidifies the direction of this research project.
 \begin_inset VSpace defskip
 \end_inset
 
@@ -659,9 +662,10 @@ With a review of literature validating the ideation of this project, a firm
  Next, a network is created connecting tweets by their textual commonalities.
  Network analysis is performed to understand each brand’s clientele and
  investigate commonalities and differences between the brands and their
- consumers’ sen timents and attributes.
- Finally, a community detection algorithm is used to investigate sub-communities.
- The results provide insights into these brands and a template for similar
+ consumers’ sentiments and attributes.
+ Finally, a community detection algorithm is used to investigate sub-communities
+ of each brand.
+ The results provide insight into these brands and a template for similar
  analysis of other brands.
 \end_layout
 
@@ -677,8 +681,8 @@ Methods
 \end_layout
 
 \begin_layout Standard
-This study utilizes Twitter data to investigate the coffee-drinking sub-communit
-ies of Starbucks and Dunkin’.
+This study utilizes Twitter data to investigate the coffee-drinking communities
+ of Starbucks and Dunkin’.
  In order to explore these two groups, data in the form of tweets is collected,
  cleaned, and analyzed.
  
@@ -704,7 +708,15 @@ Twitter is a well-known platform in which users express themselves via a
  different topics.
  Therefore, to understand the consumer opinions and sentiments surrounding
  Starbucks and Dunkin’, tweets are collected about these two brands using
- the Twitter API Tweepy.
+ the Twitter API 
+\begin_inset Quotes eld
+\end_inset
+
+Tweepy
+\begin_inset Quotes erd
+\end_inset
+
+.
  
 \end_layout
 
@@ -797,8 +809,8 @@ Besides the standard text cleaning processes, further steps were taken for
  Also, tweets posted by the official Starbucks and Dunkin’ brand accounts
  were removed to lessen bias on text analysis.
  Next, bot-like tweets were removed according to suggested filters outlined
- in the Twitter API documentation [cite Twitter docs], and tweets from users
- with fewer than 10 followers were dropped.
+ in the official Twitter API documentation, and tweets from users with fewer
+ than 10 followers were dropped.
  Finally, tweets by users with a high tweet frequency were also dropped.
  A user was considered a “high-frequency tweeter” if they tweeted more than
  50 times during the data collection period.
@@ -835,19 +847,17 @@ noprefix "false"
  It’s seen that both brands’ tweets are mainly concerned with coffee and
  drinks.
  However, words such as ‘safety’, ‘crime’, and ‘drug’ are prevalent in the
- Starbucks tweets as shown in the Figure 
+ Starbucks tweets as shown in the Figure 1 wordcloud and Table 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "Figure 1"
+reference "Table 1"
 plural "false"
 caps "false"
 noprefix "false"
 
 \end_inset
 
- wordcloud.
- In order to further gauge common words in the Starbucks and Dunkin’ tweet
- collections, word clouds were created for both tweet sets.
+.
  
 \begin_inset VSpace defskip
 \end_inset
@@ -884,7 +894,7 @@ name "Table 1"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Volumes/EXTERNAL easystore/coffee-brand-analysis-ANLY645/images/Images_For_Report/top_10_words_hashtags.png
+	filename /Users/haleyroberts/Desktop/645/Project/coffee-brand-analysis-ANLY645/images/Images_For_Report/top_10_words_hashtags.png
 	lyxscale 45
 	width 60text%
 
@@ -910,15 +920,32 @@ noprefix "false"
 \end_inset
 
  was not the first iteration of this table.
- As stated in the Text Cleaning section, an earlier stage of analysis showed
- that the top hashtags for Stabucks tweets included hashtags such as ‘#unionstro
-ng’ and ‘#unionsforall’.
+ As mentioned previously, an earlier stage of analysis showed that the top
+ hashtags for Stabucks tweets included hashtags such as ‘#unionstrong’ and
+ ‘#unionsforall’.
  Additionally, Dunkin’ tweets contained ‘#giveaway’ in its top hashtag and
  both Dunkin’ and Starbucks had ‘#ad’ in their top hashtags.
  This is important to note as the cleaning and filtering process intentionally
  attempted to remove non-consumer concepts from the tweet base.
  Thus, Starbucks and Dunkin’ topics such as unionization and advertisements
- do not appear in the tweet base.
+ do not appear in the tweet base for the network analysis.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+In order to further gauge common words in the Starbucks and Dunkin’ tweet
+ collections, word clouds were created for both tweet sets as seen in Figures
+ 1 and 2.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -928,16 +955,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Word Cloud of Dunkin’ tweets.
- 
-\end_layout
-
-\end_inset
-
-
 \begin_inset CommandInset label
 LatexCommand label
 name "Figure 1"
@@ -950,9 +967,21 @@ name "Figure 1"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Volumes/EXTERNAL easystore/coffee-brand-analysis-ANLY645/images/Images_For_Report/dd_wordcloud.png
+	filename /Users/haleyroberts/Desktop/645/Project/coffee-brand-analysis-ANLY645/images/Images_For_Report/dd_wordcloud.png
 	lyxscale 45
 	width 60text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Word cloud from tweets about Dunkin’.
+\end_layout
 
 \end_inset
 
@@ -971,15 +1000,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Word Cloud of Starbucks tweets.
-\end_layout
-
-\end_inset
-
-
 \begin_inset CommandInset label
 LatexCommand label
 name "Figure 2"
@@ -992,9 +1012,21 @@ name "Figure 2"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Volumes/EXTERNAL easystore/coffee-brand-analysis-ANLY645/images/Images_For_Report/sb_wordcloud.png
+	filename /Users/haleyroberts/Desktop/645/Project/coffee-brand-analysis-ANLY645/images/Images_For_Report/sb_wordcloud.png
 	lyxscale 45
 	width 60text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Word cloud from tweets about Starbucks.
+\end_layout
 
 \end_inset
 
@@ -1007,31 +1039,11 @@ name "Figure 2"
 \begin_inset VSpace defskip
 \end_inset
 
-Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "Figure 1"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- and Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "Figure 2"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- provide interesting insights into the words posted in reference to the
- two topics.
- A careful scan of these words show that while many words reflect consumer
+These wordclouds provide interesting insights into the words posted in reference
+ to the two topics.
+ A careful scan of the words shows that while many words reflect consumer
  ideology such as opinions and drink choices, many words stray from this
- topic as well.
+ topic.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1039,9 +1051,8 @@ Sentiment Analysis
 \end_layout
 
 \begin_layout Standard
-Sentiment analysis is a commonly used natural language processing (NLP)
- and computational linguistics task for quantifying general attitudes based
- on text.
+Sentiment analysis is a commonly used natural language processing and computatio
+nal linguistics task for quantifying general attitudes based on text.
  Typically, sentiment analysis algorithms assign a score to a piece of text
  which classifies the text as positive, neutral, or negative.
  VADER (Valence Aware Dictionary and sEntiment Reasoner) is a lexicon and
@@ -1072,8 +1083,8 @@ literal "true"
 
 \begin_layout Standard
 The VADER implementation in Python returns four scores.
- The first three scores - positive, neutral, and negative - are ratios of
- words in a text that fall in each category.
+ The first three scores (positive, neutral, negative) are ratios of words
+ in a text that fall in each category.
  These scores do not necessarily convey the sentiment of the text but rather
  the presentation and unique style of the author.
  In other words, “some writing styles may reflect a penchant for strongly
@@ -1087,8 +1098,23 @@ literal "true"
 \end_inset
 
 ).
- The last score is the compound score which can be thought of as a ‘normalized
- weighted composite score’ and conveys actual sentiment of a text.
+ The last score is the compound score which can be thought of as a 
+\begin_inset Quotes eld
+\end_inset
+
+normalized weighted composite score
+\begin_inset Quotes erd
+\end_inset
+
+ and conveys actual sentiment of a text (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "hutto2014vader"
+literal "true"
+
+\end_inset
+
+).
  This score is most commonly used by researchers to gauge mood and attitudes.
  For the purposes of this research, only compound scores are used.
  The raw compound score value ranges from -1 to 1.
@@ -1187,7 +1213,7 @@ The final attribute was derived for each node from the node’s degree and
  This attribute is considered to be a “normalized degree” attribute of the
  node, and is discussed in detail in the Investigation of Network Attributes
  section below.
- All of these node attributes are summarized next in Table 
+ All of these node attributes are summarized in Table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "Table 2"
@@ -1211,7 +1237,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-A summary of all node attributes established for the networks in this study.
+Summary of node attributes.
 \end_layout
 
 \end_inset
@@ -1229,7 +1255,7 @@ name "Table 2"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Volumes/EXTERNAL easystore/coffee-brand-analysis-ANLY645/images/Images_For_Report/node_attr_summary.png
+	filename /Users/haleyroberts/Desktop/645/Project/coffee-brand-analysis-ANLY645/images/Images_For_Report/node_attr_summary.png
 	lyxscale 45
 	width 80text%
 
@@ -1267,7 +1293,7 @@ Network Analysis
 
 \begin_layout Standard
 With the network nodes and edges created and many inherent and derived attribute
-s added, the twitter data was ready for analysis.
+s added, the Twitter data was ready for analysis.
  Three networks were considered: the complete network of all tweets, the
  subnetwork of only tweets collected on the topic of Starbucks, and the
  subnetwork of only tweets collected on the topic of Dunkin’.
@@ -1306,12 +1332,11 @@ e GCCs.
 
 \begin_layout Standard
 All of these network analysis methods were used to understand the similarities
- and differences between the coffee networks.
+ and differences between the two coffee networks.
  The analysis techniques were primarily performed using Python’s NetworkX
- package which provides much functionality for metrics calculations and
- network visualizations.
- The results of the network analysis are shared in the following Results
- section.
+ package.
+ The results of the network analysis are discussed in the Results section
+ below.
  
 \end_layout
 
@@ -1391,9 +1416,9 @@ noprefix "false"
 
 .
  The correlation matrix for the entire network reveals that the strongest
- correlation is between retweet_count and favorite_count.
- The second highest correlation of 0.33 exists between degree and num_unique_word
-s.
+ correlation is between the attributes of retweet_count and favorite_count.
+ The second highest correlation of 0.33 exists between attributes degree
+ and num_unique_words.
  A similar outcome is present in the individual Starbucks and Dunkin’ correlatio
 n matrices.
  For Starbucks, the correlation between degree and num_unique_words is 0.22
@@ -1407,7 +1432,7 @@ n matrices.
 
 \begin_layout Standard
 This outcome is expected due to the chosen edge creation method discussed
- in the Network Nodes, Edges, & Attributes section.
+ previously.
  The number of similar words two tweets have determines whether a link forms
  between the two nodes.
  The higher the number of unique words a tweet has, the higher the likelihood
@@ -1430,7 +1455,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Correlation Matrix of node attributes for the complete network of all tweets.
+Correlation matrix of node attributes across the complete network.
 \end_layout
 
 \end_inset
@@ -1448,7 +1473,7 @@ name "Table 3"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Volumes/EXTERNAL easystore/coffee-brand-analysis-ANLY645/images/Images_For_Report/pairwise_corr.png
+	filename /Users/haleyroberts/Desktop/645/Project/coffee-brand-analysis-ANLY645/images/Images_For_Report/pairwise_corr.png
 	lyxscale 45
 	width 100text%
 
@@ -1493,9 +1518,9 @@ Basic Statistics
 \end_layout
 
 \begin_layout Standard
-The correlation matrices above only take numeric node attributes into account.
- Frequency tables were used to inspect categorical node attributes such
- as sentiment and influencer_status.
+Correlation matrices only take numeric node attributes into account.
+ Therefore, frequency tables were used to inspect categorical node attributes
+ such as sentiment and influencer_status.
  These frequencies were converted to percentages in order to get the percentage
  frequencies of the desired sub groups.
  For example, Table 
@@ -1509,7 +1534,7 @@ noprefix "false"
 \end_inset
 
  displays the percentage of positive, neutral, and negative tweets posted
- by Influencers and Non-Influencers for the respective networks.
+ by influencers and non-influencers for the respective networks.
  As shown in the table, 33.4% of Starbucks’ influencer tweets are positive.
  This is roughly 15% less than the percentage of Dunkin’s influencer tweets
  that are positive (48.6%).
@@ -1533,8 +1558,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Percentage frequency of tweet sentiment by influencer status within the
- Dunkin’ tweets, Starbucks tweets, and complete network of tweets.
+Frequency of tweets' sentiments by influencer status within the three networks.
  
 \end_layout
 
@@ -1553,7 +1577,7 @@ name "Table 4"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Volumes/EXTERNAL easystore/coffee-brand-analysis-ANLY645/images/Images_For_Report/perc_freq.png
+	filename /Users/haleyroberts/Desktop/645/Project/coffee-brand-analysis-ANLY645/images/Images_For_Report/perc_freq.png
 	lyxscale 45
 	width 80text%
 
@@ -1577,19 +1601,9 @@ A possible explanation for this could be that at the time of data collection,
  the Community Detection section below.
  This could also have a marginal effect on the general sentiments of Starbucks
  tweets.
- Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "Figure 3"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- shows that Dunkin’ tweets have a higher frequency of positive tweets than
- Starbucks, and Starbucks has a higher frequency of negative tweets than
- Dunkin’.
+ Figure 3 shows that Dunkin’ tweets have a higher frequency of positive
+ tweets than Starbucks, and that Starbucks has a higher frequency of negative
+ tweets than Dunkin’.
  
 \end_layout
 
@@ -1612,22 +1626,45 @@ name "Figure 3"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Volumes/EXTERNAL easystore/coffee-brand-analysis-ANLY645/images/Images_For_Report/brand_by_sentiment_bar.png
+	filename /Users/haleyroberts/Desktop/645/Project/coffee-brand-analysis-ANLY645/images/Images_For_Report/brand_by_sentiment_bar.png
 	lyxscale 45
-	width 70text%
+	width 60text%
 
 \end_inset
 
 
-\begin_inset Caption Standard
+\end_layout
 
 \begin_layout Plain Layout
-Bar graph showing the proportion of each group of tweets (Starbucks and
- Dunkin’) assigned each of the three options of sentiments: positive (green),
- neutral (yellow), or negative (red).
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing other 0.69999999999999996
+
+\size footnotesize
+Figure 3: Bar graph showing the proportion of each group of tweets (Starbucks
+ and Dunkin') assigned each of the three options of sentiments: positive
+ (green), neutral (yellow), or negative (red).
  It appears that the proportions between the two brands are very similar
- but the Starbucks tweets have more negative and less positive tweets than
- the Dunkin’ tweets.
+ but that Starbucks tweets have more negative and less positive tweets than
+ Dunkin' tweets.
 \end_layout
 
 \end_inset
@@ -1650,10 +1687,10 @@ Investigation of Network Metrics
 
 \begin_layout Standard
 The overall network has 11,167 nodes and 302,028 edges.
- The Starbuck’s network has 5,411 nodes and 178,923 edges, whereas the Dukin’s
+ The Starbucks network has 5,411 nodes and 178,923 edges, whereas the Dunkin’
  network has 5,411 nodes and 97,487 edges.
- The centrality metrics allows us to identify key players in the coffee
- drinking network.
+ The centrality metrics can help identify key players in the coffee drinking
+ network.
  Across degree centrality, closeness centrality and between centralities,
  node ‘D4276’ stood out as the top node across all three measures.
  In terms of top nodes within each network, the Starbucks network appeared
@@ -1689,7 +1726,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-The centrality measures for the complete network of all tweets.
+Centrality measures for the complete network of all tweets.
  
 \end_layout
 
@@ -1708,7 +1745,7 @@ name "Table 5"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Volumes/EXTERNAL easystore/coffee-brand-analysis-ANLY645/images/Images_For_Report/table 5.png
+	filename /Users/haleyroberts/Desktop/645/Project/coffee-brand-analysis-ANLY645/images/Images_For_Report/table 5.png
 	lyxscale 45
 	width 80text%
 
@@ -1733,9 +1770,8 @@ noprefix "false"
 
 \end_inset
 
- illustrates the centrality matrix for Starbucks network.
+ illustrates the centrality matrix for the Starbucks network.
  The centrality matrix is fairly similar with the overall network.
- There are a variety of top nodes for the Starbucks network.
  
 \begin_inset Float table
 wide false
@@ -1746,7 +1782,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-The centrality measures for the Starbucks sub-network.
+Centrality measures for the Starbucks sub-network.
 \end_layout
 
 \end_inset
@@ -1764,7 +1800,7 @@ name "Table 6"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Volumes/EXTERNAL easystore/coffee-brand-analysis-ANLY645/images/Images_For_Report/Table 6.png
+	filename /Users/haleyroberts/Desktop/645/Project/coffee-brand-analysis-ANLY645/images/Images_For_Report/Table 6.png
 	lyxscale 45
 	width 80text%
 
@@ -1785,10 +1821,8 @@ noprefix "false"
 
 \end_inset
 
- illustrates the centrality matrix for Dunkin’ network.
+ illustrates the centrality matrix for the Dunkin’ network.
  The centrality matrix is fairly similar compared to the other two networks.
- Certain top nodes dominate across the centrality measures.
- 
 \begin_inset Float table
 wide false
 sideways false
@@ -1798,7 +1832,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-The centrality measures for the Dunkin’ sub-network.
+Centrality measures for the Dunkin’ sub-network.
  
 \end_layout
 
@@ -1817,7 +1851,7 @@ name "Table 7"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Volumes/EXTERNAL easystore/coffee-brand-analysis-ANLY645/images/Images_For_Report/table 7.png
+	filename /Users/haleyroberts/Desktop/645/Project/coffee-brand-analysis-ANLY645/images/Images_For_Report/table 7.png
 	lyxscale 45
 	width 80text%
 
@@ -1840,15 +1874,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-The degree distribution for the complete network of all tweets.
-\end_layout
-
-\end_inset
-
-
 \begin_inset CommandInset label
 LatexCommand label
 name "Figure 4"
@@ -1861,216 +1886,9 @@ name "Figure 4"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Volumes/EXTERNAL easystore/coffee-brand-analysis-ANLY645/images/Images_For_Report/fig 4.png
+	filename /Users/haleyroberts/Desktop/645/Project/coffee-brand-analysis-ANLY645/images/Images_For_Report/fig 4.png
 	lyxscale 45
 	width 60text%
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection*
-Network Plots
-\end_layout
-
-\begin_layout Standard
-Networks are plotted to understand the relationships between the two coffee
- brands through visual analysis and consideration of different attributes
- of the networks and their components.
- First, the complete network of all nodes (Starbucks and Dunkin’ together)
- is built using NetworkX’s spring layout algorithm for positioning the nodes.
- According to the NetworkX documentation, this “algorithm simulates a force-dire
-cted representation of the network treating edges as springs holding nodes
- close, while treating nodes as repelling objects, sometimes called an anti-grav
-ity force” (cite networkx documentation: link here).
- The algorithm analyzes these forces and moves the nodes into positions
- to give a balanced equilibrium.
- The complete network of all tweets plotted positionally based on the spring
- layout algorithm is shown in Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "Figure 5"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
- 
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "Figure 5"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename /Volumes/EXTERNAL easystore/coffee-brand-analysis-ANLY645/images/Images_For_Report/complete_network.jpeg
-	lyxscale 45
-	width 70text%
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-The complete network of Starbucks and Dunkin’ tweets, with nodes positioned
- using NetworkX’s spring layout algorithm.
- It’s seen that the Dunkin’ tweets (pink) and the Starbucks tweets (green)
- form distinct clusters on the plot, indicating that they do have inherent
- differences.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace defskip
-\end_inset
-
-Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "Figure 5"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- shows that there is a clear grouping of the Dunkin’ tweets versus the Starbucks
- tweets.
- While there appears to be a little cross-pollination of some Dunkin’ tweets
- existing in the Starbucks grouping and vice versa, overall it’s clear that
- the two brands’ tweets form distinct groups.
- This suggests that there are certain similarities amongst tweets posted
- about each coffee brand, and differences amongst tweets posted on the differing
- brands.
- 
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-To further investigate the differences between the two groups of tweets,
- the complete network of all tweets is split into two subnetworks: one containin
-g all tweets collected on the topic of Starbucks, and one containing all
- tweets collected on the topic of Dunkin’.
- The topic-specific subnetworks will be plotted side-by-side using different
- metrics for node sizing and coloring to understand different metrics of
- the overall network and the two subnetworks.
-\begin_inset VSpace defskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-First, the distribution of centrality measures of the nodes in each sub-network
- can be visualized.
- To do this, the two subnetworks are plotted side-by-side with nodes sized
- respectively to a centrality measure: betweenness centrality (Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "Figure 6"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-) closeness centrality (Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "Figure 7"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-), and degree centrality (Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "Figure 8"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-).
- 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "Figure 6"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename /Volumes/EXTERNAL easystore/coffee-brand-analysis-ANLY645/images/Images_For_Report/betweenness.jpeg
-	lyxscale 45
-	width 80text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \end_inset
 
@@ -2101,8 +1919,217 @@ status open
 \paragraph_spacing other 0.69999999999999996
 
 \size footnotesize
-Starbucks (green) and Dunkin’ (pink) networks plotted side-by-side with
- nodes sized by betweenness centrality.
+Figure 4: Degree distribution for the complete network of all tweets.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Network Plots
+\end_layout
+
+\begin_layout Standard
+Networks are plotted to understand the relationships between the two coffee
+ brands through visual analysis and consideration of different attributes
+ of the networks and their components.
+ First, the complete network of all nodes (Starbucks and Dunkin’ together)
+ is built using NetworkX’s spring layout algorithm for positioning the nodes.
+ According to the NetworkX documentation, this “algorithm simulates a force-dire
+cted representation of the network treating edges as springs holding nodes
+ close, while treating nodes as repelling objects, sometimes called an anti-grav
+ity force” (
+\begin_inset CommandInset citation
+LatexCommand citet
+key "networkx_documentation"
+literal "true"
+
+\end_inset
+
+).
+ The algorithm analyzes these forces and moves the nodes into positions
+ to give a balanced equilibrium.
+ The complete network of all tweets plotted positionally based on the spring
+ layout algorithm is shown in Figure 5.
+ 
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "Figure 5"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/haleyroberts/Desktop/645/Project/coffee-brand-analysis-ANLY645/images/Images_For_Report/complete_network.jpeg
+	lyxscale 45
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing other 0.69999999999999996
+
+\size footnotesize
+Figure 5: The complete network of Starbucks and Dunkin' tweets, with nodes
+ positioned using NetworkX's spring layout algorithm.
+ The Dunkin' tweets (pink) and the Starbucks tweets (green) form distinct
+ clusters on the plot, indicating that they do have inherent differences.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+Figure 5 shows that there is a clear grouping of Dunkin’ tweets versus Starbucks
+ tweets.
+ While there appears to be some cross-pollination of Dunkin’ tweets existing
+ in the Starbucks grouping and vice versa, overall it’s clear that the two
+ brands’ tweets form distinct groups as recognized by the spring layout
+ algorithm.
+ This suggests that there are certain similarities amongst tweets posted
+ about each coffee brand, and differences amongst tweets posted on the differing
+ brands.
+ 
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To further investigate the differences between the two groups of tweets,
+ the complete network of all tweets is split into two subnetworks: one containin
+g all tweets collected on the topic of Starbucks, and one containing all
+ tweets collected on the topic of Dunkin’.
+ The topic-specific subnetworks will be plotted side-by-side using different
+ metrics for node sizing and coloring to understand different metrics of
+ the overall network and the two subnetworks.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+First, the distribution of centrality measures of the nodes in each sub-network
+ can be visualized.
+ To do this, the two subnetworks are plotted side-by-side with nodes sized
+ respectively to a centrality measure: betweenness centrality (Figure 6)
+ closeness centrality (Figure 7), and degree centrality (Figure 8).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "Figure 6"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/haleyroberts/Desktop/645/Project/coffee-brand-analysis-ANLY645/images/Images_For_Report/betweenness.jpeg
+	lyxscale 45
+	width 75text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing other 0.69999999999999996
+
+\size footnotesize
+Figure 6: Starbucks (green) and Dunkin’ (pink) networks plotted side-by-side
+ with nodes sized by betweenness centrality.
 \end_layout
 
 \end_inset
@@ -2117,18 +2144,8 @@ Betweenness centrality indicates a node’s importance in the flow of informatio
  the shortest paths between two other nodes and therefore is critical for
  many pairs of nodes to “talk” to each other.
  The similar distribution of node sizes and the maximum and minimum values
- seen in Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "Figure 6"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- suggests that the betweenness centralities of the two networks are very
- similar.
+ seen in Figure 6 suggests that the betweenness centralities of the two
+ networks are very similar.
  The prevalence of a few very large nodes and many very small nodes indicates
  the presence of a power law distribution of this measure.
  
@@ -2163,21 +2180,9 @@ name "Figure 7"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Volumes/EXTERNAL easystore/coffee-brand-analysis-ANLY645/images/Images_For_Report/closeness.jpeg
+	filename /Users/haleyroberts/Desktop/645/Project/coffee-brand-analysis-ANLY645/images/Images_For_Report/closeness.jpeg
 	lyxscale 45
-	width 80text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
+	width 75text%
 
 \end_inset
 
@@ -2208,8 +2213,8 @@ status open
 \paragraph_spacing other 0.69999999999999996
 
 \size footnotesize
-Starbucks (green) and Dunkin’ (pink) networks plotted side-by-side with
- nodes sized by closeness centrality.
+Figure 7: Starbucks (green) and Dunkin’ (pink) networks plotted side-by-side
+ with nodes sized by closeness centrality.
 \end_layout
 
 \end_inset
@@ -2219,18 +2224,8 @@ Starbucks (green) and Dunkin’ (pink) networks plotted side-by-side with
 
 \end_inset
 
-Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "Figure 7"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- shows that there seems to be a somewhat uniform distribution of closeness
- centralities for both of the networks.
+Figure 7 shows that there seems to be a somewhat uniform distribution of
+ closeness centralities for both of the networks.
  Additionally, the minimum and maximum closeness centralities are very similar
  between the two networks.
  Each node’s closeness centrality measure indicates the average shortest
@@ -2270,21 +2265,9 @@ name "Figure 8"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Volumes/EXTERNAL easystore/coffee-brand-analysis-ANLY645/images/Images_For_Report/degree.jpeg
+	filename /Users/haleyroberts/Desktop/645/Project/coffee-brand-analysis-ANLY645/images/Images_For_Report/degree.jpeg
 	lyxscale 45
-	width 80text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
+	width 75text%
 
 \end_inset
 
@@ -2315,8 +2298,8 @@ status open
 \paragraph_spacing other 0.69999999999999996
 
 \size footnotesize
-Starbucks (green) and Dunkin’ (pink) networks plotted side-by-side with
- nodes sized by degree centrality.
+Figure 8: Starbucks (green) and Dunkin’ (pink) networks plotted side-by-side
+ with nodes sized by degree centrality.
 \end_layout
 
 \end_inset
@@ -2326,18 +2309,8 @@ Starbucks (green) and Dunkin’ (pink) networks plotted side-by-side with
 
 \end_inset
 
-Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "Figure 8"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- shows the Starbucks and Dunkin’ networks side-by-side with the nodes sized
- proportional to each node’s degree.
+Figure 8 shows the Starbucks and Dunkin’ networks side-by-side with the
+ nodes sized proportional to each node’s degree.
  A node’s degree indicates how many edges it is connected to.
  By visualizing the distribution of degree in each network, it appears that
  the Starbucks network has a smaller difference between maximum degree and
@@ -2373,22 +2346,12 @@ While this may provide interesting insights, an investigation into the nodes
 \end_layout
 
 \begin_layout Standard
-A new measure, herein called the “normalized degree” was derived by dividing
- a node’s degree by its number of words.
+A “normalized degree” metric was derived by dividing a node’s degree by
+ its number of words.
  In this way, a node’s “ability” to gain higher degree by just having more
  words was somewhat nullified through normalization.
  The normalized degree of each node in the Starbucks and Dunkin’ networks
- was plotted as node size in Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "Figure 9"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
+ was plotted as node size in Figure 9.
  
 \end_layout
 
@@ -2411,21 +2374,9 @@ name "Figure 9"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Volumes/EXTERNAL easystore/coffee-brand-analysis-ANLY645/images/Images_For_Report/normalized_degree.jpeg
+	filename /Users/haleyroberts/Desktop/645/Project/coffee-brand-analysis-ANLY645/images/Images_For_Report/normalized_degree.jpeg
 	lyxscale 45
 	width 80text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \end_inset
 
@@ -2454,8 +2405,10 @@ status open
 
 \begin_layout Plain Layout
 \paragraph_spacing other 0.69999999999999996
-Starbucks (green) and Dunkin’ (pink) networks plotted side-by-side with
- nodes sized by normalized degree.
+
+\size footnotesize
+Figure 9: Starbucks (green) and Dunkin’ (pink) networks plotted side-by-side
+ with nodes sized by normalized degree centrality.
 \end_layout
 
 \end_inset
@@ -2483,17 +2436,7 @@ While the centrality measures and normalized degree provide insight into
  the connectivity of the plot, more insights into the attributes of the
  Starbucks and the Dunkin’ networks can be established by considering the
  other node attributes, for example, the “influencer” nodes.
- Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "Figure 10"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- shows the network plotted with the influencer nodes identified.
+ Figure 10 shows the network plotted with the influencer nodes identified.
  
 \begin_inset Float figure
 wide false
@@ -2513,21 +2456,9 @@ name "Figure 10"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Volumes/EXTERNAL easystore/coffee-brand-analysis-ANLY645/images/Images_For_Report/influencer.jpeg
+	filename /Users/haleyroberts/Desktop/645/Project/coffee-brand-analysis-ANLY645/images/Images_For_Report/influencer.jpeg
 	lyxscale 45
-	width 80text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
+	width 73text%
 
 \end_inset
 
@@ -2556,8 +2487,10 @@ status open
 
 \begin_layout Plain Layout
 \paragraph_spacing other 0.69999999999999996
-Starbucks (green) and Dunkin’ (pink) networks plotted side-by-side with
- influencer nodes identified with coloration and sizing.
+
+\size footnotesize
+Figure 10: Starbucks and Dunkin’ networks plotted side-by-side with influencer
+ nodes identified with coloration and sizing.
  It appears that influencer nodes do not form any obvious clusters but are
  instead spread out fairly-uniformly throughout their respective networks.
 \end_layout
@@ -2584,18 +2517,8 @@ There does not appear to be obvious clustering of influencer nodes grouping
 
 \begin_layout Standard
 To further dive into the role that users’ number of followers play, Figure
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "Figure 11"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- shows the networks with nodes sized by the number of followers that the
- user who posted each tweet has.
+ 11 shows the networks with nodes sized by the number of followers that
+ the user who posted each tweet has.
  
 \end_layout
 
@@ -2618,21 +2541,9 @@ name "Figure 11"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Volumes/EXTERNAL easystore/coffee-brand-analysis-ANLY645/images/Images_For_Report/followers.jpeg
+	filename /Users/haleyroberts/Desktop/645/Project/coffee-brand-analysis-ANLY645/images/Images_For_Report/followers.jpeg
 	lyxscale 45
-	width 80text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
+	width 73text%
 
 \end_inset
 
@@ -2661,8 +2572,10 @@ status open
 
 \begin_layout Plain Layout
 \paragraph_spacing other 0.69999999999999996
-Starbucks (green) and Dunkin’ (pink) networks plotted side-by-side with
- nodes sized by tweet user follower count.
+
+\size footnotesize
+Figure 11: Starbucks (green) and Dunkin’ (pink) networks plotted side-by-side
+ with nodes sized by user follower count.
  A power law distribution is noted with there being a few very large nodes
  and many very small nodes.
 \end_layout
@@ -2674,18 +2587,8 @@ Starbucks (green) and Dunkin’ (pink) networks plotted side-by-side with
 
 \end_inset
 
-Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "Figure 11"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- shows that there are very few tweets whose user has a huge number of followers,
- but the tweets with the most followers actually have millions.
+Figure 11 shows that there are very few tweets whose user has a huge number
+ of followers, but the tweets with the most followers actually have millions.
  These tweets would have a great amount of influence to the network of coffee
  drinkers and could spread opinions quickly.
  For example, the tweet with the most number of followers in the Starbucks
@@ -2708,27 +2611,7 @@ noprefix "false"
 \begin_layout Standard
 Next, the popularity attributes of the tweets in the networks can be shown
  using two different metrics: the number of favorites received by the tweet
- (Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "Figure 12"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-) and the number of retweets received by the tweet (Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "Figure 13"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-).
+ (Figure 12) and the number of retweets received by the tweet (Figure 13).
  
 \end_layout
 
@@ -2751,21 +2634,9 @@ name "Figure 12"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Volumes/EXTERNAL easystore/coffee-brand-analysis-ANLY645/images/Images_For_Report/favorites.jpeg
+	filename /Users/haleyroberts/Desktop/645/Project/coffee-brand-analysis-ANLY645/images/Images_For_Report/favorites.jpeg
 	lyxscale 45
-	width 80text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
+	width 73text%
 
 \end_inset
 
@@ -2794,9 +2665,11 @@ status open
 
 \begin_layout Plain Layout
 \paragraph_spacing other 0.69999999999999996
-Starbucks (green) and Dunkin’ (pink) networks plotted side-by-side with
- nodes sized by number of favorites.
- A power law distribution is noted with there being few very large nodes
+
+\size footnotesize
+Figure 12: Starbucks (green) and Dunkin’ (pink) networks plotted side-by-side
+ with nodes sized by number of favorites.
+ A power law distribution is noted with there being a few very large nodes
  and many very small nodes.
 \end_layout
 
@@ -2829,21 +2702,9 @@ name "Figure 13"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Volumes/EXTERNAL easystore/coffee-brand-analysis-ANLY645/images/Images_For_Report/retweets.jpeg
+	filename /Users/haleyroberts/Desktop/645/Project/coffee-brand-analysis-ANLY645/images/Images_For_Report/retweets.jpeg
 	lyxscale 45
-	width 80text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
+	width 73text%
 
 \end_inset
 
@@ -2872,9 +2733,11 @@ status open
 
 \begin_layout Plain Layout
 \paragraph_spacing other 0.69999999999999996
-Starbucks (green) and Dunkin’ (pink) networks plotted side-by-side with
- nodes sized by number of retweets.
- A power law distribution is noted with there being few very large nodes
+
+\size footnotesize
+Figure 13: Starbucks (green) and Dunkin’ (pink) networks plotted side-by-side
+ with nodes sized by number of retweets.
+ A power law distribution is noted with there being a few very large nodes
  and many very small nodes.
 \end_layout
 
@@ -2885,28 +2748,9 @@ Starbucks (green) and Dunkin’ (pink) networks plotted side-by-side with
 
 \end_inset
 
-In terms of number of retweets (Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "Figure 12"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-) and number of favorites (Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "Figure 13"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-), it’s seen that one or two major tweets surpass the other tweets by leaps
- and bounds.
+In terms of number of retweets (Figure 12) and number of favorites (Figure
+ 13), it’s seen that one or two major tweets surpass the other tweets by
+ leaps and bounds.
  The tweet in the Dunkin’ network with the most retweets is the same as
  the tweet with the most favorites.
  Interestingly, the content of this tweet is actually making fun of Starbucks
@@ -2918,18 +2762,17 @@ noprefix "false"
 \end_inset
 
 Lastly, the sentiment of each node is plotted using color for both the Starbucks
- and the Dunkin’ networks in Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "Figure 14"
-plural "false"
-caps "false"
-noprefix "false"
+ and the Dunkin’ networks in Figure 14.
+\end_layout
 
+\begin_layout Standard
+\begin_inset VSpace defskip
 \end_inset
 
-.
- 
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -2948,21 +2791,9 @@ name "Figure 14"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Volumes/EXTERNAL easystore/coffee-brand-analysis-ANLY645/images/Images_For_Report/sentiment.jpeg
+	filename /Users/haleyroberts/Desktop/645/Project/coffee-brand-analysis-ANLY645/images/Images_For_Report/sentiment.jpeg
 	lyxscale 45
-	width 80text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
+	width 73text%
 
 \end_inset
 
@@ -2991,11 +2822,12 @@ status open
 
 \begin_layout Plain Layout
 \paragraph_spacing other 0.69999999999999996
-Starbucks (green) and Dunkin’ (pink) networks plotted side-by-side with
- tweet sentiment identified with node coloration, where green represents
- positive tweets, yellow represents neutral tweets, and red represents negative
- tweets.
- It appears that sentiments are fairly evening distributed across both networks
+
+\size footnotesize
+Figure 14: Starbucks and Dunkin’ networks plotted side-by-side with tweet
+ sentiment identified by node coloration, where green represents positive
+ tweets, yellow represents neutral tweets, and red represents negative tweets.
+ It appears that sentiments are fairly evenly distributed across both networks
  and no major positive, negative, or neutral clusters are observed.
 \end_layout
 
@@ -3013,12 +2845,11 @@ While there may be minor groupings of common sentiments within the respective
  all share the same words.
  To understand a tweet’s sentiment, one must explore beyond plain words
  and consider other context clues that VADER uses to assign sentiment, as
- discussed in the Sentiment Analysis section above.
+ discussed previously.
  Also, there does not appear to be a major difference in the proportion
  or distribution of positive, neutral, and negative tweets posted in the
- Starbucks versus the Dunkin’ networks.
- This echoes what was found in the Investigation of Network Attributes section
- above.
+ Starbucks versus the Dunkin’ networks comparatively.
+ This echoes what was found in the Figure 3 bar graph above.
  
 \begin_inset VSpace defskip
 \end_inset
@@ -3027,8 +2858,8 @@ While there may be minor groupings of common sentiments within the respective
 \end_layout
 
 \begin_layout Standard
-Overall, the Starbucks and the Dunkin’ networks have been analyzed using
- several different attributes and metrics.
+Overall, the Starbucks and the Dunkin’ networks were analyzed using several
+ different attributes and metrics.
  While the relevance of many of these results have been indicated, further
  discussion of the greater importance of these findings is included in the
  Conclusions section to follow.
@@ -3053,18 +2884,7 @@ The Louvain algorithm was used to investigate communities found from the
  Community detection performed on the complete network validated these communiti
 es along with finding additional communities.
  The community detection resulting from the complete network is shown in
- Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "Figure 15"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
- 
+ Figure 15.
 \begin_inset Float figure
 wide false
 sideways false
@@ -3078,23 +2898,14 @@ name "Figure 15"
 \end_inset
 
 
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-?
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Volumes/EXTERNAL easystore/coffee-brand-analysis-ANLY645/images/Images_For_Report/community_detection_final.png
+	filename /Users/haleyroberts/Desktop/645/Project/coffee-brand-analysis-ANLY645/images/Images_For_Report/community_detection_final.png
 	lyxscale 45
-	width 80text%
+	width 90text%
 
 \end_inset
 
@@ -3123,8 +2934,10 @@ status open
 
 \begin_layout Plain Layout
 \paragraph_spacing other 0.69999999999999996
-The top eight communities of the complete network of all tweets as found
- by the Louvain Algorithm.
+
+\size footnotesize
+Figure 15: The top eight communities of the complete network of all tweets
+ as found by the Louvain Algorithm.
 \end_layout
 
 \end_inset
@@ -3134,8 +2947,7 @@ The top eight communities of the complete network of all tweets as found
 
 \end_inset
 
-As can be seen above, the Dunkin’ community contains 41.19% of the network’s
- nodes.
+Per Figure 15, the Dunkin’ community contains 41.19% of the network’s nodes.
  This is greater than the Starbucks community which contains 30.28% of the
  network’s nodes.
  This is because the Starbucks network separates into more sub-communities
@@ -3202,8 +3014,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Top ten words for each of the top eight communities found by the Louvain
- Algorithm.
+Top ten words of the top eight communities found by the Louvain Algorithm.
 \end_layout
 
 \end_inset
@@ -3221,7 +3032,7 @@ name "Table 8"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Volumes/EXTERNAL easystore/coffee-brand-analysis-ANLY645/images/Images_For_Report/tp_words_per_community.png
+	filename /Users/haleyroberts/Desktop/645/Project/coffee-brand-analysis-ANLY645/images/Images_For_Report/tp_words_per_community.png
 	lyxscale 45
 	width 100text%
 
@@ -3283,7 +3094,7 @@ Conclusion
 \end_layout
 
 \begin_layout Standard
-Understanding the twitter networks between Starbucks and Dunkin’ can provide
+Understanding the Twitter networks between Starbucks and Dunkin’ can provide
  important insights for business executives, marketing specialists and operation
  managers in the coffee industry.
  There are many communities in the coffee drinking network and below are
@@ -3299,15 +3110,15 @@ First, there are significant intersections between the Starbucks and Dunkin’
  communities.
  This was reflected by the sentiment analysis as well as the top words cited
  in each online community, as one of the most commonly tweeted words in
- Dunkin’ tweets was actually ‘Starbucks’.
- While both are famous coffee chains and key players in the industry, their
- business models differ from each other.
- As Starbucks focuses on creating lofty and welcoming social atmospheres,
+ the Dunkin’ tweets was actually ‘Starbucks’.
+ Both brands are famous coffee chains and key players in the industry but
+ their business models differ from each other.
+ While Starbucks focuses on creating lofty and welcoming social atmospheres,
  Dunkin’ takes a different approach by leveraging its speed, consistency,
  and low pricing as its competitive advantage.
  The difference in the operation models was supported in this study as the
- tweet with the most retweets in Dunkin’ network was about making fun of
- Starbucks for its higher price.
+ tweet with the most retweets in the Dunkin’ network was about making fun
+ of Starbucks for its higher prices.
  However, there were no other significant differentiations to be found from
  each brand’s online presence.
  The existing overlap may provide a window of opportunity for either company
@@ -3320,8 +3131,8 @@ First, there are significant intersections between the Starbucks and Dunkin’
 \end_layout
 
 \begin_layout Standard
-Second, the influencer effect might be worth examining further especially
- for the Starbucks communities.
+Second, the influencer effect is worth examining further especially for
+ the Starbucks communities.
  Overall, influencers within Starbuck’s network are 15% less likely to tweet
  positively and 8% more likely to tweet negatively compared to Dunkin’s.
  This disparity could be exacerbated as some tweets in the Starbucks network
@@ -3357,10 +3168,10 @@ Third, mainstream media remains an important player in influencing social
 \begin_layout Standard
 These conclusions reflect interesting observations found from the study.
  However, further research could be continued in the following ways.
- First, the study could be expanding to investigate dynamic networks and
+ First, the study could be expanded to investigate dynamic networks and
  watch sentiments and attributes of the two brands’ networks change over
  time.
- For this study, all networks were captured statically and might explain
+ For this study, all networks were captured statically which might explain
  the social network response of time-relative current-affairs such as labor
  unrest and store closings.
  The study of dynamic networks might also help understand the changes of
@@ -3408,8 +3219,11 @@ Anam Khan
  She also aided in the collection and analysis of articles for the literature
  review.
  Additionally, she initiated the project GitHub account.
- Finally, she handled the formatting of the report into the Lyx software
- system.
+ Finally, she handled the initial formatting of the report into the Lyx
+ software system.
+\end_layout
+
+\begin_layout Standard
 \begin_inset VSpace defskip
 \end_inset
 
@@ -3430,9 +3244,14 @@ Haley Roberts
  She also aided in the collection and analysis of articles for the literature
  review.
  Additionally, she contributed to the organization of the project GitHub
- account including folder structuring and maintaining an informative README.
- Lastly, she structured the initial report and provided editing of all sections.
+ account.
+ Lastly, she structured the initial report, provided final editing of all
+ sections, and finalized the formatting of the report in the Lyx software
+ system.
  
+\end_layout
+
+\begin_layout Standard
 \begin_inset VSpace defskip
 \end_inset
 
